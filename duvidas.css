@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
+/* font-family: 'Cinzel', serif; */
+/* font-family: 'Exo', sans-serif; */
+
+@media (max-width: 767px) {
+
+    /* bloco 7*/
+    .bloco7 {
+        background-color: #0C0807;
+        padding: 50px 0px 40px 0px;
+    }
+
+    .bloco7 h1 {
+        color: #daa520;
+        font-family: 'Cinzel', serif;
+        font-size: 25px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+        padding: 0px 10px;
+        background-color: #0C0807;
+    }
+
+    .bloco7 p {
+        color: #daa520;
+        margin-bottom: 40px;
+        margin-top: 5px;
+        padding: 0px 20px;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .duvidas {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .pergunta {
+        transition: 0.2s;
+        cursor: pointer;
+        background-color: #f2f2f2;
+        color: #181719;
+        text-align: left;
+        font-size: 18px;
+        line-height: 23px;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        border: 2px solid #daa520;
+        width: calc(100% - 20px);
+        padding: 15px 10px;
+    }
+
+    .pergunta i {
+        margin: 0px 15px 0px 0px;
+        border: 2px solid #daa520;
+        color: #daa520;
+        padding: 5px;
+        font-weight: normal;
+    }
+
+    .pergunta:hover {
+        background-color: white;
+        transition: 0.2s;
+    }
+
+    .resposta {
+        text-align: center;
+        width: 100%;
+        display: none;
+        background-color: white;
+        border-left: 2px solid #daa520;
+        border-right: 2px solid #daa520;
+        border-bottom: 2px solid #daa520;
+    }
+
+    .resposta p {
+        margin: 0 auto;
+        padding: 20px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        box-sizing: border-box;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Exo', sans-serif;
+        line-height: 20px;
+    }
+
+    /* bloco 7*/
+
+}
+
+@media (min-width: 768px) {
+
+    /* bloco 7*/
+    .bloco7 {
+        background-color: #181719;
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .bloco7 h1 {
+        color: #daa520;
+        margin-top: -10px;
+        margin-bottom: -10px;
+        font-family: 'Cinzel', serif;
+        font-size: 35px;
+        letter-spacing: 1px;
+        justify-content: center;
+        text-align: center;
+        font-weight: bold;
+        width: 100%;
+        background-color: #181719;
+    }
+
+    .bloco7 p {
+        color: #daa520;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .duvidas {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .pergunta {
+        transition: 0.2s;
+        cursor: pointer;
+        background-color: #f2f2f2;
+        color: black;
+        text-align: left;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        border: 3px solid #daa520;
+        width: calc(100% - 20px);
+        padding: 20px 10px;
+    }
+
+    .pergunta i {
+        margin: 0px 30px;
+        border: 2px solid #daa520;
+        color: #daa520;
+        padding: 5px;
+        font-weight: normal;
+    }
+
+    .pergunta:hover {
+        background-color: white;
+        transition: 0.2s;
+    }
+
+    .resposta {
+        text-align: center;
+        width: 100%;
+        display: none;
+        background-color: white;
+        border-left: 3px solid #daa520;
+        border-right: 3px solid #daa520;
+        border-bottom: 3px solid #daa520;
+    }
+
+    .resposta p {
+        margin: 0 auto;
+        padding: 20px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        box-sizing: border-box;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Exo', sans-serif;
+        line-height: 23px;
+    }
+
+    /* bloco 7*/
+
+}
