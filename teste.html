@@ -42,48 +42,95 @@
             .bloco5 {
                 background-color: black;
                 display: flex;
-                /* padding: 100px 0px; */
             }
 
             .bloco5 .bloco5a {
+                margin-top: 50px;
                 background-color: black;
-                width: 50%;
+                width: 55%;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
 
+            #bloco5 {
+                display: flex;
+                width: 100%;
             }
 
             .bloco5 .bloco5a img {
-                margin: 0 auto;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
                 display: flex;
+                width: 80%;
+                margin: 0 auto;
                 object-fit: cover;
+                /* max-width: 400px;
+                max-height: 285px; */
             }
 
             .bloco5 .bloco5b {
-
-                width: 50%;
+                width: 45%;
+                background-color: black;
+                text-align: left;
             }
 
             .bloco5 .bloco5b h1 {
                 font-family: 'Cinzel', serif;
-                color: #f2f2f2;
-                font-size: 35px;
-                font-weight: normal;
-                font-family: 'Cinzel', serif;
-                color: #f2f2f2;
-                font-size: 35px;
-                font-weight: normal;
-                margin-top: 30px;
-                text-align: left;
+                font-size: 30px;
+                padding-left: 15px;
                 letter-spacing: 1px;
+                font-weight: bold;
+                color: #daa520;
+                margin-top: 10px;
             }
 
             .bloco5 .bloco5b h2 {
+                padding-left: 15px;
                 font-family: 'Exo', sans-serif;
-                color: #f2f2f2;
-                font-size: 20px;
-                letter-spacing: 1px;
                 font-weight: bold;
-                text-align: left;
+                font-size: 18px;
+                color: #daa520;
+                margin: 20px 0px;
             }
+
+            .bloco5 .bloco5b a {
+                text-decoration: none;
+                font-family: 'Cinzel', serif;
+                font-weight: bold;
+                letter-spacing: 1px;
+                font-size: 16px;
+                color: black;
+                background-color: #f2f2f2;
+                padding: 10px 0px;
+                display: flex;
+                width: 335px;
+                align-items: center;
+                cursor: pointer;
+            }
+
+            .bloco5 .fa-plus {
+                margin-right: 15px;
+                margin-left: 15px;
+                font-size: 15px;
+                font-weight: normal;
+            }
+
+            .textoOculto {
+                color: black;
+                background-color: #ccc;
+                width: calc(335px - 30px);
+                padding: 20px 15px;
+                display: flex;
+                align-items: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                font-weight: normal;
+                line-height: 21px;
+            }
+
+
         }
     </style>
 
@@ -186,29 +233,74 @@
 
         <!-- bloco 5 -->
 
-        <div class="bloco5">
+        <div class="bloco5" id="bloco5">
 
             <div class="bloco5a">
-                <img src="ana.png" alt="">
+                <img src="imageedit_16_2330078213.png" alt="">
             </div>
 
             <div class="bloco5b">
-                <h1>ANA JULIA</h1>
-                <h2>Confira meus serviços abaixo:</h2>
+                <h1>ana julia</h1>
+                <h2>Conheça nossso serviços:</h2>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>básico
+                </a>
+                <div class="textoOculto" id="textoOculto1" style="display: none;">
+                    Alinhado a Identidade Estratégica, você terá 4 conteúdos por semana no feed (16 por mês) com
+                    legendas, designer ou roteiro de video.
+                </div>
+                <br>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>gold
+                </a>
+                <div class="textoOculto" id="textoOculto2" style="display: none;">
+                    Alinhado a Identidade Estratégica, você terá 6 conteúdos por semana ( ... por mês) com legendas e
+                    designer ou roteiro de video e também 3 estratégia de stories por semana.
+                </div>
+                <br>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>master
+                </a>
+                <div class="textoOculto" id="textoOculto3" style="display: none;">
+                    Alinhado a Identidade Estratégica, você terá 7 conteúdos por semana ( ... por mês) com legendas e
+                    designer ou roteiro de video e também 7 estratégia de stories por semana.
+                </div>
+                <br>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>identidade estratégica
+                </a>
+                <div class="textoOculto" id="textoOculto4" style="display: none;">
+                    Serão 4 reuniões para alinhar sua Identidade Estratégica e estruturação do seu perfil.
+                </div>
+                <br>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>landing page
+                </a>
+                <div class="textoOculto" id="textoOculto5" style="display: none;">
+                    Demonstra sua autoridade com um site estratégico para o resultado desejado.
+                </div>
+                <br>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>eventos
+                </a>
+                <div class="textoOculto" id="textoOculto6" style="display: none;">
+                    Precisa registrar o seu evento e criar sua autoridade e marca presença? <br><br> Conte comigo!
+                </div>
+                <br>
+
             </div>
 
         </div>
 
         <!-- bloco 5 -->
 
-        <!-- bloco 6 -->
 
-        <!-- <div class="bloco6">
-            <div class="bloco6a">
-
-            </div>
-        </div> -->
-        <!-- bloco 6 -->
 
     </section>
 
@@ -322,6 +414,27 @@
         </div>
     </footer>
     <!-- footer -->
+
+
+    <script>
+        const linksMostrarOcultar = document.querySelectorAll(".mostrarOcultar");
+
+        linksMostrarOcultar.forEach(link => {
+            link.addEventListener("click", () => {
+                const targetId = link.nextElementSibling.getAttribute("id");
+                const textoOculto = document.getElementById(targetId);
+
+                if (textoOculto.style.display === "none" || textoOculto.style.display === "") {
+                    textoOculto.style.display = "block";
+                } else {
+                    textoOculto.style.display = "none";
+                }
+            });
+        });
+
+    </script>
+
+
     <script src="padrao.js"></script>
     <script src="preloader.js"></script>
 </body>

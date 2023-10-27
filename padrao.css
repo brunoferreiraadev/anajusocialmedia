@@ -5,10 +5,6 @@
 /* font-family: 'Exo', sans-serif; */
 
 @media (max-width: 767px) {
-    .inclinado {
-        transform: skew(-7deg);
-        display: inline-block;
-    }
 
     * {
         padding: 0;
@@ -119,50 +115,6 @@
 
     /* menu */
 
-    /* efeitos */
-    /* efeito opacity normal */
-    .init-hidden-normal {
-        opacity: 0;
-        transition: opacity 0.5 linear;
-    }
-
-    .init-hidden-off-normal {
-        opacity: 1;
-        transition: opacity 0.5s linear;
-    }
-
-    /* efeito opacity normal */
-
-    /* efeito de cima para baixo */
-    .init-hidden-cima {
-        opacity: 0;
-        transition: opacity 0.5s linear, transform 0.5s ease-in-out;
-        transform: translateY(-50%);
-    }
-
-    .init-from-cima {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    /* efeito de cima para baixo */
-
-    /* efeito de esquerda para direita */
-    .init-hidden-esquerda {
-        opacity: 0;
-        transition: opacity 0.5s linear;
-        transform: translateX(-70%);
-    }
-
-    .init-from-esquerda {
-        opacity: 1;
-        transform: translateX(0);
-        transition: opacity 0.5s linear, transform 0.5s ease-in-out;
-    }
-
-    /* efeito de esquerda para direita */
-    /* efeitos */
-
     /* preloader */
     #preloader {
         position: fixed;
@@ -211,6 +163,8 @@
     }
 
     .box .inicio {
+        width: 32px;
+        height: 32px;
         background-color: white;
         border: 3px solid transparent;
         border-radius: 30px;
@@ -219,6 +173,8 @@
     }
 
     .box .whats {
+        width: 32px;
+        height: 32px;
         background-color: white;
         border: 3px solid transparent;
         border-radius: 30px;
@@ -227,6 +183,8 @@
     }
 
     .box .insta {
+        width: 32px;
+        height: 32px;
         background-color: white;
         border: 3px solid transparent;
         border-radius: 30px;
@@ -464,9 +422,13 @@
         border-radius: 30px;
         display: flex;
         margin-bottom: 15px;
+        width: 32px;
+        height: 32px;
     }
 
     .box .whats {
+        width: 32px;
+        height: 32px;
         background-color: white;
         border: 3px solid transparent;
         border-radius: 30px;
@@ -475,6 +437,8 @@
     }
 
     .box .insta {
+        width: 32px;
+        height: 32px;
         background-color: white;
         border: 3px solid transparent;
         border-radius: 30px;

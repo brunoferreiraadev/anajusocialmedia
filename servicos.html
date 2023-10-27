@@ -29,10 +29,6 @@
 
     <title>Agência - Serviços</title>
 
-    <style>
-
-    </style>
-
 </head>
 
 <body id="top">
@@ -132,15 +128,74 @@
 
         <!-- bloco 5 -->
 
-        <div class="bloco5">
+        <div class="bloco5" id="bloco5">
 
             <div class="bloco5a">
-                <img src="../" alt="">
+                <img src="imageedit_16_2330078213.png" alt="">
             </div>
-            <div class="bloco5b"></div>
+
+            <div class="bloco5b">
+                <h1>ana julia</h1>
+                <h2>Conheça nossso serviços:</h2>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>básico
+                </a>
+                <div class="textoOculto" id="textoOculto1" style="display: none;">
+                    Alinhado a Identidade Estratégica, você terá 4 conteúdos por semana no feed (16 por mês) com
+                    legendas, designer ou roteiro de video.
+                </div>
+                <br>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>gold
+                </a>
+                <div class="textoOculto" id="textoOculto2" style="display: none;">
+                    Alinhado a Identidade Estratégica, você terá 6 conteúdos por semana ( ... por mês) com legendas e
+                    designer ou roteiro de video e também 3 estratégia de stories por semana.
+                </div>
+                <br>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>master
+                </a>
+                <div class="textoOculto" id="textoOculto3" style="display: none;">
+                    Alinhado a Identidade Estratégica, você terá 7 conteúdos por semana ( ... por mês) com legendas e
+                    designer ou roteiro de video e também 7 estratégia de stories por semana.
+                </div>
+                <br>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>identidade estratégica
+                </a>
+                <div class="textoOculto" id="textoOculto4" style="display: none;">
+                    Serão 4 reuniões para alinhar sua Identidade Estratégica e estruturação do seu perfil.
+                </div>
+                <br>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>landing page
+                </a>
+                <div class="textoOculto" id="textoOculto5" style="display: none;">
+                    Demonstra sua autoridade com um site estratégico para o resultado desejado.
+                </div>
+                <br>
+
+                <a class="mostrarOcultar" title="Clique e saiba mais!">
+                    <i class="fas fa-plus"></i>eventos
+                </a>
+                <div class="textoOculto" id="textoOculto6" style="display: none;">
+                    Precisa registrar o seu evento e criar sua autoridade e marca presença? <br><br> Conte comigo!
+                </div>
+                <br>
+
+            </div>
+
         </div>
 
         <!-- bloco 5 -->
+
+
 
     </section>
 
@@ -254,6 +309,27 @@
         </div>
     </footer>
     <!-- footer -->
+
+
+    <script>
+        const linksMostrarOcultar = document.querySelectorAll(".mostrarOcultar");
+
+        linksMostrarOcultar.forEach(link => {
+            link.addEventListener("click", () => {
+                const targetId = link.nextElementSibling.getAttribute("id");
+                const textoOculto = document.getElementById(targetId);
+
+                if (textoOculto.style.display === "none" || textoOculto.style.display === "") {
+                    textoOculto.style.display = "block";
+                } else {
+                    textoOculto.style.display = "none";
+                }
+            });
+        });
+
+    </script>
+
+
     <script src="padrao.js"></script>
     <script src="preloader.js"></script>
 </body>
