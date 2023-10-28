@@ -1,26 +1,3 @@
-// Crie um único objeto observer
-// const observer = new IntersectionObserver(entries => {
-//     Array.from(entries).forEach(entry => {
-//         if (entry.intersectionRatio >= 0.1) {
-//             if (entry.target.classList.contains('init-hidden-normal')) {
-//                 entry.target.classList.add('init-hidden-off-normal');
-//                 entry.target.classList.remove('init-hidden-normal');
-//             } else if (entry.target.classList.contains('init-hidden-cima')) {
-//                 entry.target.classList.add('init-from-cima');
-//             } else if (entry.target.classList.contains('init-hidden-esquerda')) {
-//                 entry.target.classList.add('init-from-esquerda');
-//             }
-//         }
-//     });
-// }, {
-//     threshold: [0.1]
-// });
-
-// Array.from(document.querySelectorAll('.init-hidden-normal, .init-hidden-cima, .init-hidden-esquerda')).forEach(element => {
-//     observer.observe(element);
-// });
-// Crie um único objeto observer
-
 // função para recarregar a página e voltar no início do site
 window.addEventListener('beforeunload', function () {
     window.scrollTo(0, 0);
@@ -93,3 +70,20 @@ function mostrarResposta(numero) {
     }
 }
 // funcao das perguntas e respostas
+
+// funcao para expandir perguntas e respostas da página servicos
+const linksMostrarOcultar = document.querySelectorAll(".mostrarOcultar");
+
+linksMostrarOcultar.forEach(link => {
+    link.addEventListener("click", () => {
+        const targetId = link.nextElementSibling.getAttribute("id");
+        const textoOculto = document.getElementById(targetId);
+
+        if (textoOculto.style.display === "none" || textoOculto.style.display === "") {
+            textoOculto.style.display = "block";
+        } else {
+            textoOculto.style.display = "none";
+        }
+    });
+});
+// funcao para expandir perguntas e respostas da página servicos
