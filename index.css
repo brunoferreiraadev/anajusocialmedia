@@ -277,8 +277,9 @@
 
     .bloco5 .blocod2 {
         justify-content: space-evenly;
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
+        padding: 0px 20px;
     }
 
     .bloco5 .blocotitulo h1 {
@@ -323,15 +324,14 @@
     .blocod2 h2 {
         color: white;
         background-color: #490315;
-        width: 300px;
         padding: 10px 0px;
-        margin: 5px;
+        margin: 15px 0px;
         font-family: 'Cinzel', serif;
         font-weight: bold;
         text-align: left;
         letter-spacing: 2px;
-        font-size: 11px;
-        border-radius: 25px;
+        font-size: 12px;
+        border-radius: 5px 5px 0px 0px;
         border: 1px solid #490315;
         display: flex;
         align-items: center;
@@ -350,7 +350,7 @@
     .bloco5 .fa-plus {
         margin-right: 10px;
         margin-left: 10px;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: normal;
     }
 
@@ -921,14 +921,14 @@
         color: white;
         background-color: #490315;
         min-width: 300px;
-        padding: 12px 0px;
-        margin: 10px;
+        padding: 10px 0px;
+        margin: 15px 10px;
         font-family: 'Cinzel', serif;
         font-weight: bold;
         text-align: left;
         letter-spacing: 2px;
         font-size: 13px;
-        border-radius: 25px;
+        border-radius: 5px 5px 0px 0px;
         border: 1px solid #490315;
         display: flex;
         align-items: center;
@@ -947,7 +947,7 @@
     .bloco5 .fa-plus {
         margin-right: 10px;
         margin-left: 10px;
-        font-size: 18px;
+        font-size: 13px;
         font-weight: normal;
     }
 
