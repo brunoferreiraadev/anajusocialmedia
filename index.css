@@ -14,6 +14,10 @@
         display: none;
     }
 
+    .finish {
+        display: none;
+    }
+
     /* bloco1 */
 
     .bloco1-cel {
@@ -49,7 +53,7 @@
         padding-top: 20px;
         color: white;
         font-family: 'Cinzel', serif;
-        font-weight: bold;
+        font-weight: normal;
         letter-spacing: 1px;
         font-size: 12px;
     }
@@ -97,7 +101,7 @@
 
     .blocoa h1 {
         font-family: 'Cinzel', serif;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 25px;
         line-height: 25px;
         color: #490315;
@@ -144,8 +148,8 @@
     }
 
     .blocoa .fa-rocket {
-        font-size: 15px;
-        margin-right: 15px;
+        font-size: 13px;
+        margin-right: 10px;
     }
 
     .blocoa a:hover {
@@ -171,7 +175,7 @@
     .titulo h1 {
         color: #f2f2f2;
         font-family: 'Cinzel', serif;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 25px;
         margin: 0px 20px;
         letter-spacing: 1px;
@@ -233,8 +237,8 @@
     }
 
     .bloco4 .fa-lightbulb {
-        font-size: 15px;
-        margin-right: 15px;
+        font-size: 13px;
+        margin-right: 10px;
     }
 
     .bloco4 a:hover {
@@ -277,15 +281,13 @@
 
     .bloco5 .blocod2 {
         justify-content: space-evenly;
-        /* display: flex;
-        flex-wrap: wrap; */
         padding: 0px 20px;
     }
 
     .bloco5 .blocotitulo h1 {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 25px;
-        line-height: 25px;
+        font-size: 22px;
+        line-height: 22px;
         font-weight: bold;
         justify-content: center;
         align-items: center;
@@ -366,7 +368,7 @@
         font-family: 'Cinzel', serif;
         margin-bottom: 50px;
         color: #D1B332;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 25px;
         padding: 0px 20px;
         line-height: 25px;
@@ -406,7 +408,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 12px;
+        padding: 10px;
         text-decoration: none;
         cursor: pointer;
         text-decoration: none;
@@ -421,8 +423,8 @@
     }
 
     .link8 .fa-bolt {
-        font-size: 15px;
-        margin-right: 15px;
+        font-size: 12px;
+        margin-right: 10px;
     }
 
     .link8 a:hover {
@@ -472,14 +474,14 @@
         color: black;
         letter-spacing: 1px;
         font-weight: bold;
-        font-size: 13px;
+        font-size: 12px;
         font-family: 'Cinzel', serif;
         transition: 0.2s;
         border: 2px solid white;
     }
 
     .link9-cel .fa-chart-line {
-        font-size: 13px;
+        font-size: 12px;
         margin-right: 10px;
     }
 
@@ -521,9 +523,9 @@
         font-family: 'Cinzel', serif;
         color: white;
         font-size: 25px;
-        line-height: 35px;
+        line-height: 30px;
         text-align: left;
-        font-weight: bold;
+        font-weight: normal;
         letter-spacing: 1px;
     }
 
@@ -562,7 +564,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 12px;
+        padding: 10px;
         text-decoration: none;
         cursor: pointer;
         text-decoration: none;
@@ -577,8 +579,8 @@
     }
 
     .link10 .fa-tachometer-alt {
-        font-size: 15px;
-        margin-right: 15px;
+        font-size: 12px;
+        margin-right: 10px;
     }
 
     .link10 a:hover {
@@ -590,6 +592,131 @@
     }
 
     /* link10 */
+
+
+    /* bloco-result1 */
+
+    .bloco-result1 {
+        background-color: #490315;
+        padding: 50px 0px;
+    }
+
+    .bloco-result1-texto h1 {
+        font-family: 'Cinzel', serif;
+        font-size: 25px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        line-height: 25px;
+        color: #f2f2f2;
+        padding: 0px 20px;
+    }
+
+    /* bloco-result1 */
+
+    /* bloco-result2 */
+
+    .bloco-result2 {
+        background-color: #490315;
+        padding-bottom: 50px;
+    }
+
+    .bloco-result2-imagem {
+        justify-content: center;
+    }
+
+    .bloco-result2-imagem img {
+        object-fit: cover;
+        width: 280px;
+        height: 400px;
+        margin: 10px;
+        border: 2px solid #f2f2f2;
+    }
+
+    /* bloco-result2 */
+
+    /* bloco-result3 */
+    .bloco-result3 {
+        background-color: #490315;
+        padding: 0px 0px 48px 0px;
+    }
+
+    .bloco-result3-imagem {
+        width: 100%;
+    }
+
+    .bloco-result3-imagem img {
+        display: flex;
+        object-fit: cover;
+        border: 2px solid #f2f2f2;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    /* bloco-result3 */
+
+    /* bloco-result3-link */
+    .result3-link {
+        width: 100%;
+        background-color: #490315;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .result3-link a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: 'Cinzel', serif;
+        transition: 0.2s;
+        border: 2px solid white;
+    }
+
+    .result3-link .fa-chart-line {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    .result3-link a:hover {
+        box-shadow: none;
+        border: 2px solid white;
+        color: white;
+        background-color: #490315;
+        transition: 0.2s;
+    }
+
+    /* bloco-result3-link */
+
+    /* finish-cel */
+
+    .finish-cel {
+        background-color: #181719;
+        padding: 50px 0px;
+    }
+
+    .finish-cel h1 {
+        font-family: 'Cinzel', serif;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: normal;
+        text-align: left;
+        letter-spacing: 1px;
+        padding: 0px 20px;
+        color: #f2f2f2;
+    }
+
+    /* finish-cel */
 }
 
 @media (min-width: 768px) {
@@ -603,6 +730,10 @@
     }
 
     .link9-cel {
+        display: none;
+    }
+
+    .finish-cel {
         display: none;
     }
 
@@ -641,7 +772,7 @@
         padding-top: 20px;
         color: white;
         font-family: 'Cinzel', serif;
-        font-weight: bold;
+        font-weight: normal;
         letter-spacing: 2px;
         font-size: 22px;
     }
@@ -691,7 +822,7 @@
 
     .blocoa h1 {
         font-family: 'Cinzel', serif;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 35px;
         line-height: 35px;
         color: #490315;
@@ -764,7 +895,7 @@
     .titulo h1 {
         color: #f2f2f2;
         font-family: 'Cinzel', serif;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 35px;
         margin: 0px 20px;
         letter-spacing: 1px;
@@ -963,7 +1094,7 @@
         font-family: 'Cinzel', serif;
         margin-bottom: 50px;
         color: #D1B332;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 35px;
         line-height: 35px;
         letter-spacing: 1px;
@@ -1116,7 +1247,7 @@
         font-size: 40px;
         line-height: 50px;
         text-align: left;
-        font-weight: bold;
+        font-weight: normal;
         letter-spacing: 1px;
     }
 
@@ -1171,7 +1302,7 @@
     }
 
     .link10 .fa-tachometer-alt {
-        font-size: 15px;
+        font-size: 18px;
         margin-right: 20px;
     }
 
@@ -1184,4 +1315,128 @@
     }
 
     /* link10 */
+
+
+    /* bloco-result1 */
+
+    .bloco-result1 {
+        background-color: #490315;
+        padding: 100px 0px;
+    }
+
+    .bloco-result1-texto h1 {
+        font-family: 'Cinzel', serif;
+        font-size: 35px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        line-height: 35px;
+        color: #f2f2f2;
+        padding: 0px 20px;
+    }
+
+    /* bloco-result1 */
+
+    /* bloco-result2 */
+
+    .bloco-result2 {
+        background-color: #490315;
+        padding-bottom: 50px;
+    }
+
+    .bloco-result2-imagem {
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .bloco-result2-imagem img {
+        display: flex;
+        object-fit: cover;
+        border: 2px solid #f2f2f2;
+    }
+
+    /* bloco-result2 */
+
+    /* bloco-result3 */
+    .bloco-result3 {
+        background-color: #490315;
+        padding-bottom: 100px;
+    }
+
+    .bloco-result3-imagem {
+        width: 100%;
+    }
+
+    .bloco-result3-imagem img {
+        display: flex;
+        object-fit: cover;
+        border: 2px solid #f2f2f2;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    /* bloco-result3 */
+
+    /* bloco-result3-link */
+    .result3-link {
+        width: 100%;
+        background-color: #490315;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+
+    .result3-link a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 50px;
+        text-decoration: none;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+        color: black;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-size: 18px;
+        font-family: 'Cinzel', serif;
+        transition: 0.2s;
+        border: 2px solid white;
+    }
+
+    .result3-link .fa-chart-line {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+
+    .result3-link a:hover {
+        box-shadow: none;
+        border: 2px solid white;
+        color: white;
+        background-color: #490315;
+        transition: 0.2s;
+    }
+
+    /* bloco-result3-link */
+
+    /* finish */
+
+    .finish {
+        background-color: #181719;
+        padding: 150px 0px;
+    }
+
+    .finish h1 {
+        font-family: 'Cinzel', serif;
+        font-size: 35px;
+        line-height: 40px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        padding: 0px 20px;
+        color: #f2f2f2;
+    }
+
+    /* finish */
 }
