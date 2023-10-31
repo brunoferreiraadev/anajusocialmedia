@@ -1372,7 +1372,7 @@
         object-fit: cover;
         border: 2px solid #f2f2f2;
         margin: 0 auto;
-        width: 50%;
+        width: 55%;
     }
 
     /* bloco-result3 */
@@ -1439,4 +1439,51 @@
     }
 
     /* finish */
+
+
+
+
+
+
+
+
+
+    /* topo */
+    .topo {
+        background-color: #040404;
+    }
+
+    #div-pai {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-filha a {
+        padding: 20px 50px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: 'Cinzel', serif;
+        color: #f2f2f2;
+        display: inline-block;
+        font-weight: bold;
+        justify-content: left;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        letter-spacing: 2px;
+    }
+
+    .div-filha a:hover {
+        color: red;
+    }
+
+    a i {
+        margin-right: 15px;
+    }
+
+    /* topo */
 }

@@ -24,10 +24,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="padrao.css">
-    <!-- <link rel="stylesheet" href="servicos.css"> -->
+    <!-- <link rel="stylesheet" href="quem-somos.css"> -->
     <script src="https://kit.fontawesome.com/d8a94dde1a.js" crossorigin="anonymous"></script>
 
-    <title>Agência - Serviços</title>
+    <title>Agência - Quem Somos</title>
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
@@ -39,98 +39,90 @@
         @media (max-width: 767px) {}
 
         @media (min-width: 768px) {
-            .bloco5 {
-                background-color: black;
+            .box-pai {
+                background-color: #181719;
+                padding: 100px 0px;
+            }
+
+            .box-filho {
+                background-color: #181719;
+                width: 100%;
+                justify-content: space-evenly;
                 display: flex;
             }
 
-            .bloco5 .bloco5a {
-                margin-top: 50px;
-                background-color: black;
-                width: 55%;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
+            .box-filho .box-filho1,
+            .box-filho2,
+            .box-filho3 {
+                width: 28%;
             }
 
-            #bloco5 {
-                display: flex;
+            .box-filho1 h1 {
+                font-family: 'Cinzel', serif;
+                font-size: 60px;
+                margin-top: -20px;
+                margin-bottom: 50px;
+                letter-spacing: 1px;
+                font-weight: bold;
+                color: #490315;
+            }
+
+            .box-filho1 p {
+                color: #f2f2f2;
+                font-family: 'Exo', sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 1px;
+                text-align: left;
+                padding: 0px 20px;
+            }
+
+            .box-filho2 img {
                 width: 100%;
             }
 
-            .bloco5 .bloco5a img {
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-                display: flex;
-                width: 80%;
-                margin: 0 auto;
-                object-fit: cover;
-                /* max-width: 400px;
-                max-height: 285px; */
-            }
-
-            .bloco5 .bloco5b {
-                width: 45%;
-                background-color: black;
-                text-align: left;
-            }
-
-            .bloco5 .bloco5b h1 {
-                font-family: 'Cinzel', serif;
-                font-size: 30px;
-                padding-left: 15px;
-                letter-spacing: 1px;
-                font-weight: bold;
-                color: #daa520;
-                margin-top: 10px;
-            }
-
-            .bloco5 .bloco5b h2 {
-                padding-left: 15px;
+            .box-filho2 p {
+                color: #f2f2f2;
                 font-family: 'Exo', sans-serif;
                 font-weight: bold;
-                font-size: 18px;
-                color: #daa520;
-                margin: 20px 0px;
-            }
-
-            .bloco5 .bloco5b a {
-                text-decoration: none;
-                font-family: 'Cinzel', serif;
-                font-weight: bold;
+                font-size: 14px;
+                line-height: 24px;
                 letter-spacing: 1px;
-                font-size: 16px;
-                color: black;
-                background-color: #f2f2f2;
-                padding: 10px 0px;
+                text-align: left;
+                padding: 20px;
+            }
+
+            .box-filho3 p {
+                color: #f2f2f2;
+                font-family: 'Exo', sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 1px;
+                text-align: left;
+                padding: 0px 20px;
+                height: 320px;
+            }
+
+            .box-filho3 img {
+                width: 100%;
+            }
+
+            .teste {
+                background-color: #181719;
+                padding: 50px 0px;
+            }
+
+            .teste img {
                 display: flex;
-                width: 335px;
-                align-items: center;
-                cursor: pointer;
+                object-fit: cover;
+                margin: 0 auto;
+                max-width: 1255px;
+                max-height: 768px;
+                width: 100%;
+                height: 100%;
             }
-
-            .bloco5 .fa-plus {
-                margin-right: 15px;
-                margin-left: 15px;
-                font-size: 15px;
-                font-weight: normal;
-            }
-
-            .textoOculto {
-                color: black;
-                background-color: #ccc;
-                width: calc(335px - 30px);
-                padding: 20px 15px;
-                display: flex;
-                align-items: center;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 16px;
-                font-weight: normal;
-                line-height: 21px;
-            }
-
-
         }
     </style>
 
@@ -147,73 +139,39 @@
     <!-- preloader -->
 
     <!-- menu -->
-    <div class="menu ">
-        <div class="arrow-button" onclick="togglePages()">
-            <i class="fas fa-bars"></i>
-            <h3>Menu</h3>
-            <div class="hidden-pages" id="hidden-pages">
-                <div style="border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;"
-                    class="page">
-                    <a href="index.html"><i class="fas fa-home"></i>home</a>
-                </div>
-                <div class="page">
-                    <a style="border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;"
-                        href="servicos.html"><i class="fas fa-cogs"></i>serviços</a>
-                </div>
 
-                <div class="page">
-                    <a style="border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;"
-                        href="quem-somos.html"><i class="fas fa-users"></i>quem somos</a>
-                </div>
-                <div class="page">
-                    <a style="border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;"
-                        href="duvidas.html"><i class="fas fa-question"></i>dúvidas</a>
-                </div>
-                <div class="page">
-                    <a style="border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black;"
-                        href="contato.html"><i class="fas fa-envelope"></i>contato</a>
-                </div>
 
-                <div class="page">
-                    <a style="border-top: 1px solid black; border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black;"
-                        href="privacidade.html"><i class="fas fa-shield-alt"></i></i>política de
-                        privacidade</a>
-                </div>
+    <!-- topo -->
+    <header class="topo ">
+        <div id="div-pai">
+
+            <div class="div-filha">
+
+                <a href="index.html"><i class="fas fa-home"></i>home</a>
+            </div>
+
+            <div class="div-filha">
+                <a href="servicos.html"><i class="fas fa-cogs"></i>serviços</a>
+            </div>
+
+            <div class="div-filha">
+                <a href="quem-somos.html"><i class="fas fa-users"></i>quem somos</a>
+            </div>
+
+            <div class="div-filha">
+                <a href="duvidas.html"><i class="fas fa-question"></i>dúvidas</a>
+            </div>
+
+            <div class="div-filha">
+                <a href="contato.html"><i class="fas fa-envelope"></i>contato</a>
+            </div>
+
+            <div class="div-filha">
+                <a href="privacidade.html"><i class="fas fa-shield-alt"></i>privacidade</a>
             </div>
         </div>
-        <!-- menu -->
 
-        <!-- topo -->
-        <header class="topo ">
-            <div id="div-pai">
-
-                <div class="div-filha">
-
-                    <a href="index.html"><i class="fas fa-home"></i>home</a>
-                </div>
-
-                <div class="div-filha">
-                    <a href="servicos.html"><i class="fas fa-cogs"></i>serviços</a>
-                </div>
-
-                <div class="div-filha">
-                    <a href="quem-somos.html"><i class="fas fa-users"></i>quem somos</a>
-                </div>
-
-                <div class="div-filha">
-                    <a href="duvidas.html"><i class="fas fa-question"></i>dúvidas</a>
-                </div>
-
-                <div class="div-filha">
-                    <a href="contato.html"><i class="fas fa-envelope"></i>contato</a>
-                </div>
-
-                <div class="div-filha">
-                    <a href="privacidade.html"><i class="fas fa-shield-alt"></i>privacidade</a>
-                </div>
-            </div>
-
-    </div>
+        </div>
 
     </header>
     <!-- topo -->
@@ -231,209 +189,56 @@
         </div>
         <!-- bloco icons lateral direita -->
 
-        <!-- bloco 5 -->
+        <!-- bloco-box -->
 
-        <div class="bloco5" id="bloco5">
+        <!-- <div class="box-pai">
 
-            <div class="bloco5a">
-                <img src="imageedit_16_2330078213.png" alt="">
-            </div>
+            <div class="box-filho">
 
-            <div class="bloco5b">
-                <h1>ana julia</h1>
-                <h2>Conheça nossso serviços:</h2>
-
-                <a class="mostrarOcultar" title="Clique e saiba mais!">
-                    <i class="fas fa-plus"></i>básico
-                </a>
-                <div class="textoOculto" id="textoOculto1" style="display: none;">
-                    Alinhado a Identidade Estratégica, você terá 4 conteúdos por semana no feed (16 por mês) com
-                    legendas, designer ou roteiro de video.
+                <div class="box-filho1">
+                    <h1>quem <br> somos</h1>
+                    <p>Missão: Buscar liberdade para concretizar sonhos e inspirar conquistas extraordinárias, alinhando
+                        propósitos. <br><br><br>
+                        Visão: Transformar vidas, impactar positivamente pessoas e elevar perspectivas a novos
+                        horizontes. <br><br><br>
+                        Valores: Compromisso com os sonhos dos clientes, excelência, cuidado, autenticidade, evolução, e
+                        serviço em honra ao Deus criador.
+                    </p>
                 </div>
-                <br>
-
-                <a class="mostrarOcultar" title="Clique e saiba mais!">
-                    <i class="fas fa-plus"></i>gold
-                </a>
-                <div class="textoOculto" id="textoOculto2" style="display: none;">
-                    Alinhado a Identidade Estratégica, você terá 6 conteúdos por semana ( ... por mês) com legendas e
-                    designer ou roteiro de video e também 3 estratégia de stories por semana.
+                <div class="box-filho2">
+                    <img src="ana1.jpg" alt="ana-social-media"><br><br><br>
+                    <p>Silvia Lana - Estratégia de vendas online
+                        <br><br>
+                        Acredita que comunicação pode mudar o mundo. Busca ajudar as pessoas ter melhor resultado nas
+                        vendas digitais através de comunicação assertiva e a personalidade de quem a faz. <br>
+                        É por isso que seu trabalho se baseia em desenvolver o melhor comunicação com o script de vendas
+                        e analisar a melhor estratégia a você e seus produtos, buscando criar relacionamento e
+                        fidelização de seus clientes, pois é através da comunicação que tudo se resolve.
+                    </p>
                 </div>
-                <br>
 
-                <a class="mostrarOcultar" title="Clique e saiba mais!">
-                    <i class="fas fa-plus"></i>master
-                </a>
-                <div class="textoOculto" id="textoOculto3" style="display: none;">
-                    Alinhado a Identidade Estratégica, você terá 7 conteúdos por semana ( ... por mês) com legendas e
-                    designer ou roteiro de video e também 7 estratégia de stories por semana.
-                </div>
-                <br>
 
-                <a class="mostrarOcultar" title="Clique e saiba mais!">
-                    <i class="fas fa-plus"></i>identidade estratégica
-                </a>
-                <div class="textoOculto" id="textoOculto4" style="display: none;">
-                    Serão 4 reuniões para alinhar sua Identidade Estratégica e estruturação do seu perfil.
-                </div>
-                <br>
+                <div class="box-filho3">
+                    <p>Ana Julia - Social Media e Mentora <br> <br>
 
-                <a class="mostrarOcultar" title="Clique e saiba mais!">
-                    <i class="fas fa-plus"></i>landing page
-                </a>
-                <div class="textoOculto" id="textoOculto5" style="display: none;">
-                    Demonstra sua autoridade com um site estratégico para o resultado desejado.
+                        Ana Júlia, Social Midia por paixão. Busca ajudar as pessoas a realizar seus sonhos por meio do
+                        poder das redes sociais. E assim como os sonhos são únicos, cada pessoa e marca também são
+                        únicas.</p><img src="lana1.jpg" alt="">
                 </div>
-                <br>
-
-                <a class="mostrarOcultar" title="Clique e saiba mais!">
-                    <i class="fas fa-plus"></i>eventos
-                </a>
-                <div class="textoOculto" id="textoOculto6" style="display: none;">
-                    Precisa registrar o seu evento e criar sua autoridade e marca presença? <br><br> Conte comigo!
-                </div>
-                <br>
 
             </div>
 
+        </div> -->
+        <!-- bloco-box -->
+
+        <!-- bloco-quem-somos -->
+        <div class="bloco-quem-somos">
+            <img src="quem-somos.png" alt="">
         </div>
-
-        <!-- bloco 5 -->
-
+        <!-- bloco-quem-somos -->
 
 
     </section>
-
-
-    <!-- footer -->
-    <footer class="">
-        <div class="footer-cel">
-            <div class="footer-cel2">
-                <a style="margin-right: 45px;" class="whatsapp" title="Olá, vamos conversar no WhatsApp!"
-                    href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                    target="_blank"><i class="fab fa-whatsapp"></i></a>
-                <a class="instagram" title="Olá, Venha explorar comigo no Instagram!"
-                    href="https://www.instagram.com/anaju_socialmedia/" target="_blank"><i
-                        class="fab fa-instagram"></i></a>
-            </div>
-
-            <div class="footer-cel1">
-                <a href="index.html"><i class="fas fa-home"></i>home</a>
-            </div>
-
-            <div class="footer-cel1">
-                <a href="servicos.html"><i class="fas fa-cogs"></i>serviços</a>
-            </div>
-
-            <div class="footer-cel1">
-                <a href="quem-somos.html"><i class="fas fa-users"></i>quem somos</a>
-            </div>
-
-            <div class="footer-cel1">
-                <a href="duvidas.html"><i class="fas fa-question"></i>dúvidas</a>
-            </div>
-
-            <div class="footer-cel1">
-                <a href="contato.html"><i class="fas fa-envelope"></i>contato</a>
-            </div>
-
-            <div style="padding-bottom: 20px;" class="footer-cel1">
-                <a href="privacidade.html"><i class="fas fa-shield-alt"></i>privacidade</a>
-            </div>
-        </div>
-
-        <div class="footer1">
-            <div class="footer-content1">
-                <a title="Início" href="servicos.html"><img src="social-media.png" alt=""></a>
-            </div>
-            <div class="footer-content2 ">
-                <div class="footer-item2">
-                    <a href="index.html"><i class="fas fa-home"></i>home</a>
-                </div>
-                <div class="footer-item2">
-                    <a href="servicos.html"><i class="fas fa-cogs"></i>serviços</a>
-                </div>
-                <div class="footer-item2">
-                    <a href="quem-somos.html"><i class="fas fa-users"></i>quem somos</a>
-                </div>
-                <div class="footer-item2">
-                    <a href="duvidas.html"><i class="fas fa-question"></i>dúvidas</a>
-                </div>
-                <div class="footer-item2">
-                    <a href="contato.html"><i class="fas fa-envelope"></i>contato</a>
-                </div>
-                <div class="footer-item2">
-                    <a href="privacidade.html"><i class="fas fa-shield-alt"></i>privacidade</a>
-                </div>
-            </div>
-
-            <div class="footer-content3">
-                <div class="social-icons">
-                    <a class="whatsapp" title="Olá, vamos conversar no WhatsApp!"
-                        href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                        target="_blank"><i class="fab fa-whatsapp"></i></a>
-                </div>
-                <div class="social-icons">
-                    <a class="instagram" title="Olá, Venha explorar comigo no Instagram!"
-                        href="https://www.instagram.com/anaju_socialmedia/" target="_blank"><i
-                            class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer2">
-            <!-- direitos reservados -->
-            <div class="direitos">
-                <div class="direitos1">
-                    <p>&copy; 2023 -
-                        <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a> | Todos os
-                        direitos reservados.
-                    </p>
-                </div>
-                <hr>
-                <div class="direitos2">Desenvolvido por
-                    <a target="_blank" href="https://www.linkedin.com/in/brunoferreiraadev">Bruno Ferreira</a>
-                </div>
-            </div>
-            <!-- direitos reservados -->
-            <!-- direitos reservados-cel -->
-            <div class="direitos-cel">
-                <div class="direitos1-cel">
-                    <p>&copy; 2023 -
-                        <a target="_blank" href="https://www.copyright.gov/what-is-copyright/"> Ana Julia</a><br>Todos
-                        os
-                        direitos reservados.
-                    </p>
-                </div>
-                <hr>
-                <div class="direitos2-cel">Desenvolvido por
-                    <a target="_blank" href="https://www.linkedin.com/in/brunoferreiraadev"><br>Bruno Ferreira</a>
-                </div>
-            </div>
-            <!-- direitos reservados-cel -->
-        </div>
-    </footer>
-    <!-- footer -->
-
-
-    <script>
-        const linksMostrarOcultar = document.querySelectorAll(".mostrarOcultar");
-
-        linksMostrarOcultar.forEach(link => {
-            link.addEventListener("click", () => {
-                const targetId = link.nextElementSibling.getAttribute("id");
-                const textoOculto = document.getElementById(targetId);
-
-                if (textoOculto.style.display === "none" || textoOculto.style.display === "") {
-                    textoOculto.style.display = "block";
-                } else {
-                    textoOculto.style.display = "none";
-                }
-            });
-        });
-
-    </script>
-
 
     <script src="padrao.js"></script>
     <script src="preloader.js"></script>

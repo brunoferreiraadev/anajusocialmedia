@@ -293,12 +293,12 @@
 
     .direitos1-cel a {
         text-decoration: none;
-        color: cyan;
+        color: red;
     }
 
     .direitos2-cel a {
         text-decoration: none;
-        color: cyan;
+        color: red;
     }
 
     /* direitos reservados */
@@ -334,7 +334,7 @@
     }
 
     /* topo */
-    .topo {
+    /* .topo {
         background-color: #f2f2f2;
     }
 
@@ -368,7 +368,7 @@
 
     a i {
         margin-right: 15px;
-    }
+    } */
 
     /* topo */
 
@@ -644,7 +644,7 @@
     .direitos1 a,
     .direitos2 a {
         text-decoration: none;
-        color: cyan;
+        color: red;
     }
 
     .direitos1 a:hover,
