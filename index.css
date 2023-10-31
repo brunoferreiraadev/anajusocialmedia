@@ -55,11 +55,11 @@
         font-family: 'Cinzel', serif;
         font-weight: normal;
         letter-spacing: 1px;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .blocob23-cel h2 {
-        font-size: 13px;
+        font-size: 15px;
         padding-top: 5px;
     }
 
@@ -737,11 +737,50 @@
         display: none;
     }
 
+    /* topo */
+    .topo {
+        background-color: #040404;
+    }
+
+    #div-pai {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-filha a {
+        padding: 20px 50px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: 'Cinzel', serif;
+        color: #f2f2f2;
+        display: inline-block;
+        font-weight: bold;
+        justify-content: left;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        letter-spacing: 2px;
+    }
+
+    .div-filha a:hover {
+        color: red;
+    }
+
+    a i {
+        margin-right: 15px;
+    }
+
+    /* topo */
+
     /* bloco1 */
 
     .bloco1 {
         display: flex;
-        padding: 80px 0px 10px 0px;
+        padding: 50px 0px 0px 0px;
         background-color: #040404;
     }
 
@@ -773,12 +812,12 @@
         color: white;
         font-family: 'Cinzel', serif;
         font-weight: normal;
-        letter-spacing: 2px;
-        font-size: 22px;
+        letter-spacing: 1px;
+        font-size: 30px;
     }
 
     .blocob23 h2 {
-        font-size: 30px;
+        font-size: 35px;
         padding-top: 10px;
     }
 
@@ -801,10 +840,12 @@
     .blocob img {
         margin: 0 auto;
         display: flex;
-        width: 100%;
+        width: 80%;
         object-fit: cover;
-        max-width: 1146px;
-        max-height: 732px;
+        max-width: 846px;
+        width: 80%;
+        max-height: 762px;
+        height: 100%;
     }
 
     /* bloco1 */
@@ -1439,51 +1480,4 @@
     }
 
     /* finish */
-
-
-
-
-
-
-
-
-
-    /* topo */
-    .topo {
-        background-color: #040404;
-    }
-
-    #div-pai {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-    }
-
-    .div-filha a {
-        padding: 20px 50px;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Cinzel', serif;
-        color: #f2f2f2;
-        display: inline-block;
-        font-weight: bold;
-        justify-content: left;
-        align-items: center;
-        text-align: center;
-        display: flex;
-        letter-spacing: 2px;
-    }
-
-    .div-filha a:hover {
-        color: red;
-    }
-
-    a i {
-        margin-right: 15px;
-    }
-
-    /* topo */
 }

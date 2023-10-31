@@ -215,11 +215,50 @@
 
 @media (min-width: 768px) {
 
+    /* topo */
+    .topo {
+        background-color: #490315;
+    }
+
+    #div-pai {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-filha a {
+        padding: 20px 50px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: 'Cinzel', serif;
+        color: #f2f2f2;
+        display: inline-block;
+        font-weight: bold;
+        justify-content: left;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        letter-spacing: 2px;
+    }
+
+    .div-filha a:hover {
+        color: red;
+    }
+
+    a i {
+        margin-right: 15px;
+    }
+
+    /* topo */
+
     /* contato-titulo */
 
     .contato-titulo {
         background-color: #490315;
-        padding: 100px 0px;
+        padding: 50px 0px 100px 0px;
     }
 
     .contato-titulo h1 {
@@ -382,7 +421,7 @@
     .box3 {
         display: flex;
         background-color: #ccc;
-        padding-bottom: 100px;
+        border-bottom: 10px solid #ccc;
     }
 
     .box3 .filho1 {
@@ -439,44 +478,5 @@
     }
 
     /* box3 */
-
-    /* topo */
-    .topo {
-        background-color: #490315;
-    }
-
-    #div-pai {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-    }
-
-    .div-filha a {
-        padding: 20px 50px;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Cinzel', serif;
-        color: #f2f2f2;
-        display: inline-block;
-        font-weight: bold;
-        justify-content: left;
-        align-items: center;
-        text-align: center;
-        display: flex;
-        letter-spacing: 2px;
-    }
-
-    .div-filha a:hover {
-        color: red;
-    }
-
-    a i {
-        margin-right: 15px;
-    }
-
-    /* topo */
 
 }

@@ -16,7 +16,8 @@
     /* bloco 5 */
     .bloco5 {
         background-color: black;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
+        border-bottom: 10px solid #f2f2f2;
     }
 
     .bloco5 .bloco5a {
@@ -108,7 +109,7 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        padding: 20px 0px;
+        padding: 20px 0px 50px 0px;
     }
 
     .bloco5 .tags a {
@@ -326,11 +327,51 @@
         display: none;
     }
 
+    /* topo */
+    .topo {
+        background-color: black;
+    }
+
+    #div-pai {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-filha a {
+        padding: 20px 50px;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: 'Cinzel', serif;
+        color: #f2f2f2;
+        display: inline-block;
+        font-weight: bold;
+        justify-content: left;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        letter-spacing: 2px;
+    }
+
+    .div-filha a:hover {
+        color: red;
+    }
+
+    a i {
+        margin-right: 15px;
+    }
+
+    /* topo */
+
     /* bloco 5 */
     .bloco5 {
         background-color: black;
         display: flex;
-        margin-bottom: 100px;
+        padding-top: 30px;
+        border-bottom: 10px solid #f2f2f2;
     }
 
     .bloco5 .bloco5a {
@@ -422,7 +463,7 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        margin: 20px 0px 40px 0px;
+        margin: 30px 0px 100px 0px;
     }
 
     .bloco5 .tags a {
@@ -481,7 +522,7 @@
     .bloco6 {
         background-color: black;
         display: flex;
-        padding-bottom: 70px;
+        padding-bottom: 100px;
     }
 
     .bloco6 .bloco6a {
@@ -607,10 +648,6 @@
         color: #029E42;
     }
 
-
-
-
-
     .bloco6 .textoOculto {
         color: black;
         background-color: #f2f2f2;
@@ -630,46 +667,4 @@
     }
 
     /* bloco 6 */
-
-
-
-
-    /* topo */
-    .topo {
-        background-color: #040404;
-    }
-
-    #div-pai {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-    }
-
-    .div-filha a {
-        padding: 20px 50px;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Cinzel', serif;
-        color: #f2f2f2;
-        display: inline-block;
-        font-weight: bold;
-        justify-content: left;
-        align-items: center;
-        text-align: center;
-        display: flex;
-        letter-spacing: 2px;
-    }
-
-    .div-filha a:hover {
-        color: red;
-    }
-
-    a i {
-        margin-right: 15px;
-    }
-
-    /* topo */
 }
