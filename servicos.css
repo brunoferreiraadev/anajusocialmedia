@@ -132,9 +132,10 @@
 
     .bloco5 .fa-whatsapp {
         margin-right: 10px;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: normal;
         vertical-align: middle;
+        display: flex;
     }
 
     .bloco5 .tags a:hover {
@@ -282,7 +283,7 @@
 
     .bloco6-c .fa-whatsapp {
         margin-right: 10px;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: normal;
         vertical-align: middle;
     }
@@ -292,9 +293,6 @@
         transition: 0.2s;
         color: #029E42;
     }
-
-
-
 
     .bloco6-c .textoOculto {
         color: black;
@@ -486,7 +484,7 @@
 
     .bloco5 .fa-whatsapp {
         margin-right: 15px;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: normal;
         vertical-align: middle;
     }
@@ -605,7 +603,7 @@
 
     .bloco6 .fa-plus {
         margin-left: 5px;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: normal;
     }
 
@@ -637,7 +635,7 @@
 
     .bloco6 .fa-whatsapp {
         margin-right: 15px;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: normal;
         vertical-align: middle;
     }

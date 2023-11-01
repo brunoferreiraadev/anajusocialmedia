@@ -47,82 +47,72 @@
             .box-filho {
                 background-color: #181719;
                 width: 100%;
-                justify-content: space-evenly;
+                justify-content: space-around;
                 display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                overflow-y: hidden;
             }
 
-            .box-filho .box-filho1,
-            .box-filho2,
-            .box-filho3 {
-                width: 28%;
+            .box-filho1 {
+                width: 339px;
+                margin: 10px;
+                display: flex;
+                background-color: greenyellow;
+                flex-direction: column;
             }
 
-            .box-filho1 h1 {
-                font-family: 'Cinzel', serif;
-                font-size: 60px;
-                margin-top: -20px;
-                margin-bottom: 50px;
-                letter-spacing: 1px;
-                font-weight: bold;
-                color: #490315;
+            .box-filho1 img {
+                display: flex;
+                object-fit: cover;
+                height: 600px;
             }
 
-            .box-filho1 p {
-                color: #f2f2f2;
-                font-family: 'Exo', sans-serif;
-                font-weight: bold;
-                font-size: 14px;
-                line-height: 24px;
-                letter-spacing: 1px;
-                text-align: left;
-                padding: 0px 20px;
+            .box-filho2 {
+                width: 339px;
+                margin: 10px;
+                display: flex;
+                background-color: maroon;
+                flex-direction: column;
             }
 
             .box-filho2 img {
-                width: 100%;
-            }
-
-            .box-filho2 p {
-                color: #f2f2f2;
-                font-family: 'Exo', sans-serif;
-                font-weight: bold;
-                font-size: 14px;
-                line-height: 24px;
-                letter-spacing: 1px;
-                text-align: left;
-                padding: 20px;
-            }
-
-            .box-filho3 p {
-                color: #f2f2f2;
-                font-family: 'Exo', sans-serif;
-                font-weight: bold;
-                font-size: 14px;
-                line-height: 24px;
-                letter-spacing: 1px;
-                text-align: left;
-                padding: 0px 20px;
-                height: 320px;
-            }
-
-            .box-filho3 img {
-                width: 100%;
-            }
-
-            .teste {
-                background-color: #181719;
-                padding: 50px 0px;
-            }
-
-            .teste img {
                 display: flex;
                 object-fit: cover;
-                margin: 0 auto;
-                max-width: 1255px;
-                max-height: 768px;
-                width: 100%;
-                height: 100%;
+                height: 600px;
             }
+
+            .box-filho .box-filho3 {
+                width: 339px;
+                background-color: red;
+                margin: 10px;
+                height: 600px;
+            }
+
+            .box-filho3,
+            .box-filho31 {
+                background-color: blue;
+                width: 100%;
+                height: 300px;
+            }
+
+            .box-filho31 img {
+                object-fit: cover;
+            }
+
+            .box-filho3,
+            .box-filho41 {
+                width: 100%;
+                height: 300px;
+                background-color: yellow;
+            }
+
+            .box-filho41 img {
+                object-fit: cover;
+                padding-top: 77px;
+                display: flex;
+            }
+
         }
     </style>
 
@@ -142,7 +132,7 @@
 
 
     <!-- topo -->
-    <header class="topo ">
+    <!-- <header class="topo ">
         <div id="div-pai">
 
             <div class="div-filha">
@@ -173,7 +163,7 @@
 
         </div>
 
-    </header>
+    </header> -->
     <!-- topo -->
 
     <section>
@@ -189,54 +179,30 @@
         </div>
         <!-- bloco icons lateral direita -->
 
-        <!-- bloco-box -->
-
-        <!-- <div class="box-pai">
+        <div class="box-pai">
 
             <div class="box-filho">
 
                 <div class="box-filho1">
-                    <h1>quem <br> somos</h1>
-                    <p>Missão: Buscar liberdade para concretizar sonhos e inspirar conquistas extraordinárias, alinhando
-                        propósitos. <br><br><br>
-                        Visão: Transformar vidas, impactar positivamente pessoas e elevar perspectivas a novos
-                        horizontes. <br><br><br>
-                        Valores: Compromisso com os sonhos dos clientes, excelência, cuidado, autenticidade, evolução, e
-                        serviço em honra ao Deus criador.
-                    </p>
-                </div>
-                <div class="box-filho2">
-                    <img src="ana1.jpg" alt="ana-social-media"><br><br><br>
-                    <p>Silvia Lana - Estratégia de vendas online
-                        <br><br>
-                        Acredita que comunicação pode mudar o mundo. Busca ajudar as pessoas ter melhor resultado nas
-                        vendas digitais através de comunicação assertiva e a personalidade de quem a faz. <br>
-                        É por isso que seu trabalho se baseia em desenvolver o melhor comunicação com o script de vendas
-                        e analisar a melhor estratégia a você e seus produtos, buscando criar relacionamento e
-                        fidelização de seus clientes, pois é através da comunicação que tudo se resolve.
-                    </p>
+                    <img src="resultado-1.jpg" alt="resultado-1">
                 </div>
 
+                <div class="box-filho2">
+                    <img src="resultado-2.jpg" alt="resultado-2">
+                </div>
 
                 <div class="box-filho3">
-                    <p>Ana Julia - Social Media e Mentora <br> <br>
+                    <div class="box-filho31">
+                        <img src="resultado-3.jpg" alt="resultado-3">
+                    </div>
 
-                        Ana Júlia, Social Midia por paixão. Busca ajudar as pessoas a realizar seus sonhos por meio do
-                        poder das redes sociais. E assim como os sonhos são únicos, cada pessoa e marca também são
-                        únicas.</p><img src="lana1.jpg" alt="">
+                    <div class="box-filho41">
+                        <img src="resultado-4.jpg" alt="resultado-4">
+                    </div>
                 </div>
 
             </div>
-
-        </div> -->
-        <!-- bloco-box -->
-
-        <!-- bloco-quem-somos -->
-        <div class="bloco-quem-somos">
-            <img src="quem-somos.png" alt="">
         </div>
-        <!-- bloco-quem-somos -->
-
 
     </section>
 
