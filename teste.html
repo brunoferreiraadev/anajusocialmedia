@@ -24,98 +24,77 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="padrao.css">
-    <!-- <link rel="stylesheet" href="quem-somos.css"> -->
+    <!-- <link rel="stylesheet" href="index.css"> -->
     <script src="https://kit.fontawesome.com/d8a94dde1a.js" crossorigin="anonymous"></script>
 
-    <title>TESTE</title>
+    <title> teste </title>
+
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
-
-        /* font-family: 'Cinzel', serif; */
-        /* font-family: 'Exo', sans-serif; */
-
-        @media (max-width: 767px) {}
-
-        @media (min-width: 768px) {
-            .box-pai {
-                background-color: #181719;
-                padding: 100px 0px;
-            }
-
-            .box-filho {
-                background-color: #181719;
-                width: 100%;
-                justify-content: space-around;
-                display: flex;
-                flex-wrap: wrap;
-                text-align: center;
-                overflow-y: hidden;
-            }
-
-            .box-filho1 {
-                width: 339px;
-                margin: 10px;
-                display: flex;
-                background-color: greenyellow;
-                flex-direction: column;
-            }
-
-            .box-filho1 img {
-                display: flex;
-                object-fit: cover;
-                height: 600px;
-            }
-
-            .box-filho2 {
-                width: 339px;
-                margin: 10px;
-                display: flex;
-                background-color: maroon;
-                flex-direction: column;
-            }
-
-            .box-filho2 img {
-                display: flex;
-                object-fit: cover;
-                height: 600px;
-            }
-
-            .box-filho .box-filho3 {
-                width: 339px;
-                background-color: red;
-                margin: 10px;
-                height: 600px;
-            }
-
-            .box-filho3,
-            .box-filho31 {
-                background-color: blue;
-                width: 100%;
-                height: 300px;
-            }
-
-            .box-filho31 img {
-                object-fit: cover;
-            }
-
-            .box-filho3,
-            .box-filho41 {
-                width: 100%;
-                height: 300px;
-                background-color: yellow;
-            }
-
-            .box-filho41 img {
-                object-fit: cover;
-                padding-top: 77px;
-                display: flex;
-            }
-
+        .bloco1-cel {
+            display: none;
         }
-    </style>
 
+        .bloco9-cel {
+            display: none;
+        }
+
+        .link9-cel {
+            display: none;
+        }
+
+        .finish-cel {
+            display: none;
+        }
+
+        /* topo */
+
+        .teste {
+            padding-left: 90px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            justify-content: left;
+        }
+
+        .topo {
+            background-color: #040404;
+        }
+
+        #div-pai {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: right;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+        }
+
+        .div-filha a {
+            padding: 20px 0px;
+            text-decoration: none;
+            font-size: 13px;
+            font-family: 'Cinzel', serif;
+            color: #f2f2f2;
+            display: inline-block;
+            font-weight: normal;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            letter-spacing: 1px;
+        }
+
+        .div-filha a:hover {
+            color: red;
+        }
+
+        a i {
+            margin-right: 10px;
+        }
+
+        /* topo */
+    </style>
 </head>
 
 <body id="top">
@@ -128,83 +107,68 @@
     </div>
     <!-- preloader -->
 
-    <!-- menu -->
-
 
     <!-- topo -->
-    <!-- <header class="topo ">
+    <header class="topo ">
         <div id="div-pai">
+            <div class="div-filha teste">
+                <a href="index.html">
 
+                    <span style="font-weight: bold; letter-spacing: 2px;">ana julia</span>
+                </a>
+            </div>
+            <!-- <div class="div-filha">
+
+                <a href="index.html"><i class="fas fa-home"></i>Home</a>
+            </div> -->
             <div class="div-filha">
-
-                <a href="index.html"><i class="fas fa-home"></i>home</a>
+                <a href="servicos.html"><i class="fas fa-cogs"></i><span
+                        style="margin-right: 15px;;">serviços</span></a>
             </div>
 
             <div class="div-filha">
-                <a href="servicos.html"><i class="fas fa-cogs"></i>serviços</a>
+                <a href="quem-somos.html"><i class="fas fa-users"></i><span style="margin-right: 15px;">quem
+                        somos</span></a>
             </div>
 
             <div class="div-filha">
-                <a href="quem-somos.html"><i class="fas fa-users"></i>quem somos</a>
+                <a href="duvidas.html"><i class="fas fa-question"></i><span
+                        style="margin-right: 15px;">dúvidas</span></a>
             </div>
 
             <div class="div-filha">
-                <a href="duvidas.html"><i class="fas fa-question"></i>dúvidas</a>
+                <a href="contato.html"><i class="fas fa-envelope"></i><span
+                        style="margin-right: 15px;">contato</span></a>
             </div>
 
             <div class="div-filha">
-                <a href="contato.html"><i class="fas fa-envelope"></i>contato</a>
-            </div>
-
-            <div class="div-filha">
-                <a href="privacidade.html"><i class="fas fa-shield-alt"></i>privacidade</a>
+                <a href="privacidade.html"><i class="fas fa-shield-alt"></i><span
+                        style="margin-right: 15px;">privacidade</span></a>
             </div>
         </div>
 
         </div>
 
-    </header> -->
+    </header>
     <!-- topo -->
 
     <section>
+
         <!-- bloco icons lateral direita -->
         <div class="box">
-            <a class="inicio" title="Inicio" href="#top"> <img src="seta-cima.png" alt="seta-voltada-para-cima"></a>
+            <a class="inicio" title="Inicio" href="#top"> <img src="seta-cima.png" alt="seta-cima"></a>
             <a class="whats" title="Olá, vamos conversar no WhatsApp!"
                 href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                target="_blank"> <img src="whatsapp.png" alt="icone-do-whatsapp"></a>
+                target="_blank"> <img src="whatsapp.png" alt="whatsapp"></a>
             <a class="insta" title="Olá, Venha explorar comigo no Instagram!"
                 href="https://www.instagram.com/anaju_socialmedia/" target="_blank"><img src="instagram.png"
-                    alt="icone-do-instagram"></a>
+                    alt="instagram"></a>
         </div>
         <!-- bloco icons lateral direita -->
 
-        <div class="box-pai">
-
-            <div class="box-filho">
-
-                <div class="box-filho1">
-                    <img src="resultado-1.jpg" alt="resultado-1">
-                </div>
-
-                <div class="box-filho2">
-                    <img src="resultado-2.jpg" alt="resultado-2">
-                </div>
-
-                <div class="box-filho3">
-                    <div class="box-filho31">
-                        <img src="resultado-3.jpg" alt="resultado-3">
-                    </div>
-
-                    <div class="box-filho41">
-                        <img src="resultado-4.jpg" alt="resultado-4">
-                    </div>
-                </div>
-
-            </div>
-        </div>
 
     </section>
+
 
     <script src="padrao.js"></script>
     <script src="preloader.js"></script>

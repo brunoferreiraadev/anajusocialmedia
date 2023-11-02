@@ -216,32 +216,41 @@
 @media (min-width: 768px) {
 
     /* topo */
+
+    .teste {
+        padding-left: 90px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        justify-content: left;
+    }
+
     .topo {
-        background-color: #490315;
+        background-color: #040404;
     }
 
     #div-pai {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: right;
         width: 100%;
         align-items: center;
         text-align: center;
     }
 
     .div-filha a {
-        padding: 20px 50px;
+        padding: 20px 0px;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 13px;
         font-family: 'Cinzel', serif;
         color: #f2f2f2;
         display: inline-block;
-        font-weight: bold;
+        font-weight: normal;
         justify-content: left;
         align-items: center;
         text-align: center;
         display: flex;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
     }
 
     .div-filha a:hover {
@@ -249,7 +258,7 @@
     }
 
     a i {
-        margin-right: 15px;
+        margin-right: 10px;
     }
 
     /* topo */
