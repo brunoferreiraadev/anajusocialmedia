@@ -18,11 +18,84 @@
         display: none;
     }
 
+    /* menu */
+    .arrow-button {
+        border-bottom: 1px solid #f2f2f2;
+        display: flex;
+        padding: 13px 0px;
+        align-items: center;
+        top: 0;
+        margin: 0;
+        background-color: #040404;
+        color: #f2f2f2;
+        letter-spacing: 2px;
+        width: 100%;
+        font-weight: bold;
+        font-size: 10px;
+        font-family: 'Cinzel', serif;
+        text-align: center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 999;
+    }
+
+    .arrow-button i {
+        margin-right: 15px;
+        vertical-align: middle;
+    }
+
+    .hidden-pages {
+        display: none;
+        position: fixed;
+        top: 42px;
+        width: 100%;
+        height: 100%;
+        background-color: #f2f2f2;
+        z-index: 9999;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .page a {
+        text-decoration: none;
+        background-color: #f2f2f2;
+        color: black;
+        height: 100%;
+        display: flex;
+        padding: 13px 0px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        font-size: 10px;
+        padding-left: 50px;
+        position: relative;
+    }
+
+    .page a i {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 20px;
+        vertical-align: middle;
+    }
+
+    .show-pages {
+        opacity: 1;
+    }
+
+    /* menu */
+
     /* bloco1 */
 
     .bloco1-cel {
         display: flex;
-        padding: 50px 0px 10px 0px;
+        padding: 20px 0px 10px 0px;
         background-color: #040404;
     }
 
@@ -378,7 +451,6 @@
     .bloco8 .pai-texto {
         margin: 0 auto;
         display: flex;
-        /* width: 100%; */
         padding: 0px 20px;
         justify-content: center;
     }
@@ -505,7 +577,6 @@
     }
 
     .bloco10 .pai {
-        /* display: flex; */
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -596,7 +667,6 @@
 
     /* link10 */
 
-
     /* bloco-result1 */
 
     .bloco-result1 {
@@ -615,8 +685,6 @@
     }
 
     /* bloco-result1 */
-
-    /* box-pai */
 
     /* box-pai */
 
@@ -689,49 +757,6 @@
     }
 
     /* box-pai */
-
-    /* box-pai */
-
-    /* bloco-result2 */
-
-    /* .bloco-result2 {
-        background-color: #490315;
-        padding-bottom: 50px;
-    }
-
-    .bloco-result2-imagem {
-        justify-content: center;
-    }
-
-    .bloco-result2-imagem img {
-        object-fit: cover;
-        width: 280px;
-        height: 400px;
-        margin: 10px;
-        border: 2px solid #f2f2f2;
-    } */
-
-    /* bloco-result2 */
-
-    /* bloco-result3 */
-    /* .bloco-result3 {
-        background-color: #490315;
-        padding: 0px 0px 48px 0px;
-    }
-
-    .bloco-result3-imagem {
-        width: 100%;
-    }
-
-    .bloco-result3-imagem img {
-        display: flex;
-        object-fit: cover;
-        border: 2px solid #f2f2f2;
-        margin: 0 auto;
-        width: 90%;
-    } */
-
-    /* bloco-result3 */
 
     /* bloco-result3-link */
     .result3-link {
@@ -819,11 +844,11 @@
     /* topo */
 
     .teste {
-        padding-left: 90px;
         position: absolute;
         left: 0;
         top: 0;
         justify-content: left;
+        background-color: #f2f2f2;
     }
 
     .topo {
@@ -831,6 +856,7 @@
     }
 
     #div-pai {
+        border-bottom: 1px solid #f2f2f2;
         display: flex;
         flex-wrap: wrap;
         justify-content: right;
@@ -840,7 +866,7 @@
     }
 
     .div-filha a {
-        padding: 20px 0px;
+        padding: 15px 0px;
         text-decoration: none;
         font-size: 13px;
         font-family: 'Cinzel', serif;
@@ -1445,7 +1471,6 @@
 
     /* link10 */
 
-
     /* bloco-result1 */
 
     .bloco-result1 {
@@ -1535,47 +1560,6 @@
     }
 
     /* box-pai */
-
-    /* bloco-result2 */
-
-    /* .bloco-result2 {
-        background-color: #490315;
-        padding-bottom: 50px;
-    }
-
-    .bloco-result2-imagem {
-        width: 100%;
-        justify-content: space-around;
-        display: flex;
-    }
-
-    .bloco-result2-imagem img {
-        display: flex;
-        object-fit: cover;
-        border: 2px solid #f2f2f2;
-    } */
-
-    /* bloco-result2 */
-
-    /* bloco-result3 */
-    /* .bloco-result3 {
-        background-color: #490315;
-        padding-bottom: 100px;
-    }
-
-    .bloco-result3-imagem {
-        width: 100%;
-    }
-
-    .bloco-result3-imagem img {
-        display: flex;
-        object-fit: cover;
-        border: 2px solid #f2f2f2;
-        margin: 0 auto;
-        width: 55%;
-    } */
-
-    /* bloco-result3 */
 
     /* bloco-result3-link */
     .result3-link {

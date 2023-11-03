@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
 
-/* font-family: 'Cinzel', serif; */
-/* font-family: 'Exo', sans-serif; */
-
 @media (max-width: 767px) {
 
     * {
@@ -31,89 +28,6 @@
     .footer1 {
         display: none;
     }
-
-    /* menu */
-    .arrow-button {
-        position: fixed;
-        display: flex;
-        align-items: center;
-        top: 1px;
-        right: 2px;
-        background-color: #f2f2f2;
-        color: black;
-        letter-spacing: 1px;
-        width: 75px;
-        height: 35px;
-        font-weight: bold;
-        font-size: 10px;
-        border: 2px solid #f2f2f2;
-        font-family: 'Cinzel', serif;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        z-index: 999;
-    }
-
-    .arrow-button i {
-        margin-right: 5px;
-    }
-
-    .arrow-button:hover {
-        color: #f2f2f2;
-        background-color: black;
-    }
-
-    .hidden-pages {
-        display: none;
-        position: fixed;
-        top: 40px;
-        right: 1px;
-        width: 230px;
-        background-color: #f2f2f2;
-        z-index: 998;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-    }
-
-    .page a {
-        text-decoration: none;
-        background-color: #f2f2f2;
-        color: black;
-        height: 100%;
-        display: flex;
-        padding: 13px 0px 13px 13px;
-        cursor: pointer;
-        letter-spacing: 1px;
-        font-family: 'Cinzel', serif;
-        font-weight: bold;
-        font-size: 10px;
-        padding-left: 35px;
-        text-align: left;
-        position: relative;
-
-    }
-
-    .page a:hover {
-        background-color: black;
-        color: #f2f2f2;
-    }
-
-    .page a i {
-        position: absolute;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 12px;
-        margin-left: 10px;
-    }
-
-    .show-pages {
-        opacity: 1;
-    }
-
-    /* menu */
 
     /* preloader */
     #preloader {
@@ -302,7 +216,6 @@
     }
 
     /* direitos reservados */
-
 }
 
 @media (min-width: 768px) {
@@ -332,45 +245,6 @@
     .footer-cel {
         display: none;
     }
-
-    /* topo */
-    /* .topo {
-        background-color: #f2f2f2;
-    }
-
-    #div-pai {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-    }
-
-    .div-filha a {
-        padding: 20px 50px;
-        text-decoration: none;
-        font-size: 14px;
-        font-family: 'Cinzel', serif;
-        color: black;
-        display: inline-block;
-        font-weight: bold;
-        justify-content: left;
-        align-items: center;
-        text-align: center;
-        display: flex;
-        letter-spacing: 2px;
-    }
-
-    .div-filha a:hover {
-        color: red;
-    }
-
-    a i {
-        margin-right: 15px;
-    } */
-
-    /* topo */
 
     /* preloader */
     #preloader {
@@ -472,14 +346,9 @@
         align-items: center;
     }
 
-    /* .footer-content1 img {
-        border-radius: 50%;
-    } */
-
     .footer-content1 img {
         width: 180px;
         height: 180px;
-        /* object-fit: cover; */
         border: 2px solid #f2f2f2;
         transition: 0.2s;
     }
@@ -572,23 +441,6 @@
         margin: 32px;
     }
 
-    /* .social-icons i:hover {
-        transition: 0.2s;
-        border: 3px solid red;
-    } */
-
-    /* .facebook i {
-        border: 3px solid white;
-        color: blue;
-        background-color: white;
-    } */
-
-    /* .youtube i {
-        border: 3px solid white;
-        color: red;
-        background-color: white;
-    } */
-
     .whatsapp i {
         border: 3px solid black;
         color: lime;
@@ -612,12 +464,6 @@
         transition: 0.2s;
         border: 3px solid red;
     }
-
-    /* .instagram i:hover {
-        color: red;
-    } */
-
-    /* 3 */
 
     /* rodape */
 

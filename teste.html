@@ -23,78 +23,99 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="padrao.css">
-    <!-- <link rel="stylesheet" href="index.css"> -->
+    <!-- <link rel="stylesheet" href="padrao.css"> -->
+    <!-- <link rel="stylesheet" href="duvidas.css"> -->
     <script src="https://kit.fontawesome.com/d8a94dde1a.js" crossorigin="anonymous"></script>
 
     <title> teste </title>
 
-
     <style>
-        .bloco1-cel {
-            display: none;
+        body {
+            margin: 0;
         }
 
-        .bloco9-cel {
-            display: none;
+        /* menu */
+        .arrow-button {
+            border-bottom: 1px solid #f2f2f2;
+            display: flex;
+            align-items: center;
+            top: 0;
+            margin: 0;
+            background-color: #040404;
+            color: #f2f2f2;
+            letter-spacing: 2px;
+            width: 100%;
+            font-weight: bold;
+            font-size: 12px;
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 999;
         }
 
-        .link9-cel {
-            display: none;
+        .arrow-button i {
+            margin-right: 15px;
         }
 
-        .finish-cel {
-            display: none;
+        .arrow-button:hover {
+            color: #f2f2f2;
+            background-color: black;
         }
 
-        /* topo */
+        .hidden-pages {
+            display: none;
+            position: fixed;
+            top: 47px;
+            width: 100%;
+            height: 100%;
+            background-color: #f2f2f2;
+            z-index: 9999;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            text-align: center;
+            justify-content: center;
+        }
 
-        .teste {
-            padding-left: 90px;
+        .page a {
+            text-decoration: none;
+            background-color: #f2f2f2;
+            color: black;
+            height: 100%;
+            display: flex;
+            padding: 15px 0px 15px 15px;
+            cursor: pointer;
+            letter-spacing: 1px;
+            font-family: 'Cinzel', serif;
+            font-weight: bold;
+            font-size: 12px;
+            padding-left: 55px;
+            position: relative;
+        }
+
+        .page a:hover {
+            background-color: black;
+            color: #f2f2f2;
+        }
+
+        .page a i {
             position: absolute;
             left: 0;
-            top: 0;
-            justify-content: left;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 15px;
+            margin-left: 20px;
         }
 
-        .topo {
-            background-color: #040404;
+        .show-pages {
+            opacity: 1;
         }
 
-        #div-pai {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: right;
-            width: 100%;
-            align-items: center;
-            text-align: center;
-        }
-
-        .div-filha a {
-            padding: 20px 0px;
-            text-decoration: none;
-            font-size: 13px;
-            font-family: 'Cinzel', serif;
-            color: #f2f2f2;
-            display: inline-block;
-            font-weight: normal;
-            justify-content: left;
-            align-items: center;
-            text-align: center;
-            display: flex;
-            letter-spacing: 1px;
-        }
-
-        .div-filha a:hover {
-            color: red;
-        }
-
-        a i {
-            margin-right: 10px;
-        }
-
-        /* topo */
+        /* menu */
     </style>
+
 </head>
 
 <body id="top">
@@ -107,71 +128,46 @@
     </div>
     <!-- preloader -->
 
+    <!-- menu -->
+    <div class="menu ">
+        <div class="arrow-button" onclick="togglePages()">
+            <i class="fas fa-bars"></i>
+            <h3>Menu</h3>
+            <div class="hidden-pages" id="hidden-pages">
+                <div class="page">
+                    <a href="index.html"><i class="fas fa-home"></i>home</a>
+                </div>
+                <div class="page">
+                    <a style="border-top: 1px solid black;" href="servicos.html"><i class="fas fa-cogs"></i>serviços</a>
+                </div>
 
-    <!-- topo -->
-    <header class="topo ">
-        <div id="div-pai">
-            <div class="div-filha teste">
-                <a href="index.html">
+                <div class="page">
+                    <a style="border-top: 1px solid black;" href="quem-somos.html"><i class="fas fa-users"></i>quem
+                        somos</a>
+                </div>
+                <div class="page">
+                    <a style="border-top: 1px solid black;" href="duvidas.html"><i
+                            class="fas fa-question"></i>dúvidas</a>
+                </div>
+                <div class="page">
+                    <a style="border-top: 1px solid black;" href="contato.html"><i
+                            class="fas fa-envelope"></i>contato</a>
+                </div>
 
-                    <span style="font-weight: bold; letter-spacing: 2px;">ana julia</span>
-                </a>
-            </div>
-            <!-- <div class="div-filha">
-
-                <a href="index.html"><i class="fas fa-home"></i>Home</a>
-            </div> -->
-            <div class="div-filha">
-                <a href="servicos.html"><i class="fas fa-cogs"></i><span
-                        style="margin-right: 15px;;">serviços</span></a>
-            </div>
-
-            <div class="div-filha">
-                <a href="quem-somos.html"><i class="fas fa-users"></i><span style="margin-right: 15px;">quem
-                        somos</span></a>
-            </div>
-
-            <div class="div-filha">
-                <a href="duvidas.html"><i class="fas fa-question"></i><span
-                        style="margin-right: 15px;">dúvidas</span></a>
-            </div>
-
-            <div class="div-filha">
-                <a href="contato.html"><i class="fas fa-envelope"></i><span
-                        style="margin-right: 15px;">contato</span></a>
-            </div>
-
-            <div class="div-filha">
-                <a href="privacidade.html"><i class="fas fa-shield-alt"></i><span
-                        style="margin-right: 15px;">privacidade</span></a>
+                <div class="page">
+                    <a style="border-top: 1px solid black; border-bottom: 1px solid black;" href="privacidade.html"><i
+                            class="fas fa-shield-alt"></i></i>política de
+                        privacidade</a>
+                </div>
             </div>
         </div>
-
-        </div>
-
-    </header>
-    <!-- topo -->
-
-    <section>
-
-        <!-- bloco icons lateral direita -->
-        <div class="box">
-            <a class="inicio" title="Inicio" href="#top"> <img src="seta-cima.png" alt="seta-cima"></a>
-            <a class="whats" title="Olá, vamos conversar no WhatsApp!"
-                href="https://api.whatsapp.com/send?phone=46999344203&text=Olá%20Ana%20Julia%2C%20estou%20ansioso(a)%20para%20descobrir%20seus%20incríveis%20métodos%20no%20Instagram%21"
-                target="_blank"> <img src="whatsapp.png" alt="whatsapp"></a>
-            <a class="insta" title="Olá, Venha explorar comigo no Instagram!"
-                href="https://www.instagram.com/anaju_socialmedia/" target="_blank"><img src="instagram.png"
-                    alt="instagram"></a>
-        </div>
-        <!-- bloco icons lateral direita -->
+        <!-- menu -->
 
 
-    </section>
 
 
-    <script src="padrao.js"></script>
-    <script src="preloader.js"></script>
+        <script src="padrao.js"></script>
+        <script src="preloader.js"></script>
 </body>
 
 </html>
