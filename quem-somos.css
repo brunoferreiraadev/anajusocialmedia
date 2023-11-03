@@ -57,7 +57,7 @@
         display: flex;
         padding: 13px 0px;
         cursor: pointer;
-        letter-spacing: 1px;
+
         font-family: 'Cinzel', serif;
         font-weight: bold;
         font-size: 10px;
@@ -106,7 +106,7 @@
         color: #f2f2f2;
         font-size: 15px;
         line-height: 20px;
-        letter-spacing: 1px;
+
         border: 1px solid #9D1034;
         padding: 15px;
         border-radius: 10px;
@@ -150,7 +150,7 @@
         color: #f2f2f2;
         font-size: 15px;
         line-height: 20px;
-        letter-spacing: 1px;
+
         border: 1px solid #DAA520;
         padding: 15px;
         border-radius: 10px;
@@ -193,7 +193,7 @@
         color: #f2f2f2;
         font-size: 15px;
         line-height: 20px;
-        letter-spacing: 1px;
+
         border: 1px solid #DAA520;
         padding: 20px;
         border-radius: 10px;
@@ -252,7 +252,7 @@
         align-items: center;
         text-align: center;
         display: flex;
-        letter-spacing: 1px;
+
     }
 
     .div-filha a:hover {

@@ -54,7 +54,7 @@
         display: flex;
         padding: 13px 0px;
         cursor: pointer;
-        letter-spacing: 1px;
+
         font-family: 'Cinzel', serif;
         font-weight: bold;
         font-size: 10px;
@@ -88,7 +88,7 @@
         font-family: 'Cinzel', serif;
         font-size: 25px;
         line-height: 25px;
-        letter-spacing: 1px;
+
         justify-content: center;
         text-align: center;
         font-weight: normal;
@@ -104,7 +104,7 @@
         font-family: 'Exo', sans-serif;
         font-weight: bold;
         font-size: 15px;
-        letter-spacing: 1px;
+
     }
 
     .duvidas {
@@ -208,7 +208,7 @@
         align-items: center;
         text-align: center;
         display: flex;
-        letter-spacing: 1px;
+
     }
 
     .div-filha a:hover {
@@ -234,7 +234,7 @@
         margin-bottom: -10px;
         font-family: 'Cinzel', serif;
         font-size: 35px;
-        letter-spacing: 1px;
+
         justify-content: center;
         text-align: center;
         font-weight: normal;
@@ -249,7 +249,7 @@
         font-family: 'Exo', sans-serif;
         font-weight: bold;
         font-size: 20px;
-        letter-spacing: 1px;
+
     }
 
     .duvidas {
