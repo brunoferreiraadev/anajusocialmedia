@@ -107,6 +107,9 @@
         font-size: 15px;
         line-height: 20px;
         letter-spacing: 1px;
+        border: 1px solid #9D1034;
+        padding: 15px;
+        border-radius: 10px;
     }
 
     /* bloco-quem-somos-cel */
@@ -148,6 +151,9 @@
         font-size: 15px;
         line-height: 20px;
         letter-spacing: 1px;
+        border: 1px solid #DAA520;
+        padding: 15px;
+        border-radius: 10px;
     }
 
     /* bloco-imagem1 */
@@ -188,6 +194,9 @@
         font-size: 15px;
         line-height: 20px;
         letter-spacing: 1px;
+        border: 1px solid #DAA520;
+        padding: 20px;
+        border-radius: 10px;
     }
 
     /* bloco-imagem3 */
@@ -259,7 +268,7 @@
     /* bloco-quem-somos */
     .bloco-quem-somos {
         background-color: #181719;
-        padding: 50px 0px;
+        padding: 100px 0px;
     }
 
     .bloco-quem-somos img {

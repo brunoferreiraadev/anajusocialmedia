@@ -692,15 +692,15 @@
     .box-filho {
         background-color: #490315;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-evenly;
         display: flex;
         flex-wrap: wrap;
         text-align: center;
         overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     .box-filho1 {
-        width: 290px;
         margin: 20px 10px;
         display: flex;
         flex-direction: column;
@@ -708,53 +708,51 @@
     }
 
     .box-filho1 img {
+        width: 300px;
         display: flex;
         object-fit: cover;
-        height: 600px;
+        box-shadow: 0 0 5px #f2f2f2;
     }
 
     .box-filho2 {
-        background-color: #490315;
-        width: 290px;
         margin: 20px 10px;
         display: flex;
         flex-direction: column;
+        background-color: #490315;
     }
 
     .box-filho2 img {
+        width: 300px;
         display: flex;
         object-fit: cover;
-        height: 600px;
+        box-shadow: 0 0 5px #f2f2f2;
     }
 
     .box-filho .box-filho3 {
-        width: 290px;
+        width: 300px;
         background-color: #490315;
         margin: 20px 10px;
-        height: 482px;
-
+        box-shadow: 0 0 5px #f2f2f2;
     }
 
     .box-filho3,
     .box-filho31 {
         width: 100%;
-        height: 245px;
     }
 
     .box-filho31 img {
         object-fit: cover;
-        width: 290px;
     }
 
     .box-filho3,
     .box-filho41 {
         width: 100%;
-        height: 245px;
     }
 
     .box-filho41 img {
-        width: 290px;
         object-fit: cover;
+        padding-top: 42px;
+        display: flex;
     }
 
     /* box-pai */
@@ -766,6 +764,7 @@
         display: flex;
         text-align: center;
         justify-content: center;
+        padding-top: 30px;
         padding-bottom: 50px;
     }
 
@@ -1496,7 +1495,7 @@
     .box-filho {
         background-color: #490315;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-evenly;
         display: flex;
         flex-wrap: wrap;
         text-align: center;
@@ -1504,7 +1503,6 @@
     }
 
     .box-filho1 {
-        width: 339px;
         margin: 20px 10px;
         display: flex;
         flex-direction: column;
@@ -1512,36 +1510,36 @@
     }
 
     .box-filho1 img {
+        box-shadow: 0 0 10px #f2f2f2;
+        width: 300px;
         display: flex;
         object-fit: cover;
-        height: 600px;
     }
 
     .box-filho2 {
-        background-color: #490315;
-        width: 339px;
         margin: 20px 10px;
         display: flex;
         flex-direction: column;
+        background-color: #490315;
     }
 
     .box-filho2 img {
+        width: 300px;
         display: flex;
         object-fit: cover;
-        height: 600px;
+        box-shadow: 0 0 10px #f2f2f2;
     }
 
     .box-filho .box-filho3 {
-        width: 339px;
+        width: 300px;
         background-color: #490315;
         margin: 20px 10px;
-        height: 600px;
+        box-shadow: 0 0 10px #f2f2f2;
     }
 
     .box-filho3,
     .box-filho31 {
         width: 100%;
-        height: 300px;
     }
 
     .box-filho31 img {
@@ -1551,12 +1549,11 @@
     .box-filho3,
     .box-filho41 {
         width: 100%;
-        height: 300px;
     }
 
     .box-filho41 img {
         object-fit: cover;
-        padding-top: 77px;
+        padding-top: 42px;
         display: flex;
     }
 
