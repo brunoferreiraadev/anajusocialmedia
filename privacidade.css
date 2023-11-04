@@ -54,7 +54,7 @@
         display: flex;
         padding: 13px 0px;
         cursor: pointer;
-
+        letter-spacing: 0px;
         font-family: 'Cinzel', serif;
         font-weight: bold;
         font-size: 10px;

@@ -54,7 +54,7 @@
         display: flex;
         padding: 13px 0px;
         cursor: pointer;
-
+        letter-spacing: 0px;
         font-family: 'Cinzel', serif;
         font-weight: bold;
         font-size: 10px;
@@ -86,9 +86,8 @@
     .bloco7 h1 {
         color: #daa520;
         font-family: 'Cinzel', serif;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 25px;
-
         justify-content: center;
         text-align: center;
         font-weight: normal;
@@ -104,11 +103,10 @@
         font-family: 'Exo', sans-serif;
         font-weight: bold;
         font-size: 15px;
-
     }
 
     .duvidas {
-        width: 85%;
+        padding: 0px 15px;
         margin: 0 auto;
     }
 
@@ -118,8 +116,8 @@
         background-color: #f2f2f2;
         color: #181719;
         text-align: left;
-        font-size: 18px;
-        line-height: 23px;
+        font-size: 16px;
+        line-height: 21px;
         font-family: 'Exo', sans-serif;
         font-weight: bold;
         display: flex;
@@ -131,9 +129,9 @@
 
     .pergunta i {
         margin: 0px 15px 0px 0px;
-        border: 2px solid #daa520;
+        border: 1px solid #daa520;
         color: #daa520;
-        padding: 5px;
+        padding: 2px;
         font-weight: normal;
     }
 
@@ -160,10 +158,10 @@
         justify-content: center;
         color: black;
         box-sizing: border-box;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: bold;
         font-family: 'Exo', sans-serif;
-        line-height: 20px;
+        line-height: 19px;
     }
 
     /* bloco 7*/
