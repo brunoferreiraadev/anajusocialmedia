@@ -80,15 +80,23 @@
 
     /* menu */
 
-    /* bloco-imagem1 */
+    /* titulo1 */
 
-    .bloco-imagem1 h1 {
+    .titulo1 {
+        background-color: #181719;
+    }
+
+    .titulo1 h1 {
         color: #9D1034;
         font-family: 'Cinzel', serif;
-        font-weight: normal;
-        font-size: 20px;
-        padding: 50px 0px 30px 0px;
+        font-weight: bold;
+        font-size: 25px;
+        padding: 30px 0px;
     }
+
+    /* titulo1 */
+
+    /* bloco-imagem1 */
 
     .bloco-imagem1 {
         background-color: #181719;
@@ -195,10 +203,14 @@
     }
 
     /* bloco-quem-somos-cel */
-
 }
 
 @media (min-width: 768px) {
+
+    .titulo1 {
+        display: none;
+    }
+
     .bloco-quem-somos-cel {
         display: none;
     }
