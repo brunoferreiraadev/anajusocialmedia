@@ -72,6 +72,7 @@
         transform: translateY(-50%);
         margin-left: 20px;
         vertical-align: middle;
+        color: red;
     }
 
     .show-pages {
@@ -87,9 +88,9 @@
     }
 
     .titulo1 h1 {
-        color: #9D1034;
+        color: #DAA520;
         font-family: 'Cinzel', serif;
-        font-weight: bold;
+        font-weight: normal;
         font-size: 25px;
         padding: 30px 0px;
     }
@@ -266,7 +267,8 @@
         color: red;
     }
 
-    a i {
+    .div-filha a i {
+        color: red;
         margin-right: 10px;
     }
 

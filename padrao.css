@@ -132,13 +132,13 @@
         font-size: 12px;
         font-family: 'Cinzel', serif;
         font-weight: bold;
-
         text-align: center;
         display: flex;
         align-items: center;
     }
 
     .footer-cel1 i {
+        color: red;
         width: 20px;
         padding-right: 15px;
     }
@@ -196,12 +196,11 @@
         font-family: 'Exo', sans-serif;
         color: #f2f2f2;
         font-weight: bold;
-
         text-align: center;
         justify-content: center;
         align-items: center;
         line-height: 18px;
-        padding: 10px 0px;
+        padding: 5px 0px;
     }
 
     .direitos1-cel a {
@@ -327,6 +326,7 @@
     /* rodape */
     footer {
         background: #f2f2f2;
+        overflow-x: hidden;
     }
 
     .footer1 {
@@ -339,7 +339,7 @@
 
     /* 1 */
     .footer-content1 {
-        width: 32%;
+        width: 33%;
         justify-content: center;
         display: flex;
         align-items: center;
@@ -348,12 +348,11 @@
     .footer-content1 img {
         width: 180px;
         height: 180px;
-        border: 2px solid #f2f2f2;
         transition: 0.2s;
     }
 
     .footer-content1 img:hover {
-        border: 2px solid red;
+        box-shadow: 0 0 10px red;
         transition: 0.2s;
     }
 
@@ -365,7 +364,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        width: 32%;
+        width: 33%;
     }
 
     .footer-item2 {
@@ -399,6 +398,7 @@
     .footer-item2 i {
         width: 10px;
         padding-right: 20px;
+        color: red;
     }
 
     .footer-item2 a:hover {
@@ -414,7 +414,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 32%;
+        width: 33%;
     }
 
     .social-icons {
@@ -441,14 +441,17 @@
 
     .whatsapp i {
         border: 3px solid black;
-        color: lime;
+        color: limegreen;
         background-color: black;
         transition: 0.2s;
+        border-radius: 50%;
     }
 
     .whatsapp i:hover {
         transition: 0.2s;
-        border: 3px solid lime;
+        border: 3px solid limegreen;
+        background-color: #f2f2f2;
+        box-shadow: 0 0 15px lime;
     }
 
     .instagram i {
@@ -456,11 +459,14 @@
         color: red;
         background-color: black;
         transition: 0.2s;
+        border-radius: 50%;
     }
 
     .instagram i:hover {
         transition: 0.2s;
         border: 3px solid red;
+        background-color: #f2f2f2;
+        box-shadow: 0 0 15px red;
     }
 
     /* rodape */
@@ -480,7 +486,7 @@
         color: #f2f2f2;
         font-size: 13px;
         text-align: center;
-        padding: 15px 0px;
+        padding: 10px 0px;
         font-weight: bold;
     }
 

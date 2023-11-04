@@ -84,6 +84,7 @@
         transform: translateY(-50%);
         margin-left: 20px;
         vertical-align: middle;
+        color: red;
     }
 
     .show-pages {
@@ -710,7 +711,8 @@
         color: red;
     }
 
-    a i {
+    .div-filha a i {
+        color: red;
         margin-right: 10px;
     }
 
@@ -720,7 +722,7 @@
 
     .bloco1 {
         display: flex;
-        padding: 50px 0px 0px 0px;
+        padding: 60px 0px 20px 0px;
         background-color: #040404;
     }
 

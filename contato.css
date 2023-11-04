@@ -69,6 +69,7 @@
         transform: translateY(-50%);
         margin-left: 20px;
         vertical-align: middle;
+        color: red;
     }
 
     .show-pages {
@@ -325,7 +326,8 @@
         color: red;
     }
 
-    a i {
+    .div-filha a i {
+        color: red;
         margin-right: 10px;
     }
 

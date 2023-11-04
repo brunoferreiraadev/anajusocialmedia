@@ -69,6 +69,7 @@
         transform: translateY(-50%);
         margin-left: 20px;
         vertical-align: middle;
+        color: red;
     }
 
     .show-pages {
@@ -213,7 +214,8 @@
         color: red;
     }
 
-    a i {
+    .div-filha a i {
+        color: red;
         margin-right: 10px;
     }
 
@@ -232,7 +234,6 @@
         margin-bottom: -10px;
         font-family: 'Cinzel', serif;
         font-size: 35px;
-
         justify-content: center;
         text-align: center;
         font-weight: normal;
@@ -247,7 +248,6 @@
         font-family: 'Exo', sans-serif;
         font-weight: bold;
         font-size: 20px;
-
     }
 
     .duvidas {
@@ -274,9 +274,9 @@
 
     .pergunta i {
         margin: 0px 30px;
-        border: 2px solid #daa520;
+        border: 1px solid #daa520;
         color: #daa520;
-        padding: 5px;
+        padding: 2px;
         font-weight: normal;
     }
 
