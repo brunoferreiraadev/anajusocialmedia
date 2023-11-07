@@ -19,7 +19,7 @@
         align-items: center;
         top: 0;
         margin: 0;
-        background-color: black;
+        background-color: #040404;
         color: #f2f2f2;
         letter-spacing: 2px;
         width: 100%;
@@ -87,13 +87,13 @@
 
     /* bloco 5 */
     .bloco5 {
-        background-color: black;
+        background-color: #040404;
         border-bottom: 10px solid #f2f2f2;
     }
 
     .bloco5 .bloco5a {
         padding-top: 50px;
-        background-color: black;
+        background-color: #040404;
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -115,7 +115,7 @@
     }
 
     .bloco5 .bloco5b {
-        background-color: black;
+        background-color: #040404;
         text-align: left;
         padding: 0px 20px;
     }
@@ -146,7 +146,6 @@
         text-decoration: none;
         font-family: 'Cinzel', serif;
         font-weight: bold;
-
         font-size: 13px;
         color: white;
         background-color: #daa520;
@@ -238,13 +237,13 @@
     /* bloco 6 cel*/
 
     .bloco6-c {
-        background-color: black;
+        background-color: #040404;
         padding-bottom: 50px;
     }
 
     .bloco6-c .bloco6a-c {
         padding-top: 50px;
-        background-color: black;
+        background-color: #040404;
         width: 100%;
         text-align: center;
         justify-content: center;
@@ -266,7 +265,7 @@
     }
 
     .bloco6-c .bloco6b-c {
-        background-color: black;
+        background-color: #040404;
         text-align: left;
         padding: 0px 20px;
     }
@@ -407,7 +406,7 @@
     }
 
     .topo {
-        background-color: black;
+        background-color: #040404;
     }
 
     #div-pai {
@@ -448,7 +447,7 @@
 
     /* bloco 5 */
     .bloco5 {
-        background-color: black;
+        background-color: #040404;
         display: flex;
         padding-top: 30px;
         border-bottom: 10px solid #f2f2f2;
@@ -456,7 +455,7 @@
 
     .bloco5 .bloco5a {
         margin-top: 30px;
-        background-color: black;
+        background-color: #040404;
         width: 55%;
         text-align: center;
         justify-content: center;
@@ -480,7 +479,7 @@
 
     .bloco5 .bloco5b {
         width: 45%;
-        background-color: black;
+        background-color: #040404;
         text-align: left;
         margin-right: 20px;
     }
@@ -597,14 +596,14 @@
     /* bloco 6 */
 
     .bloco6 {
-        background-color: black;
+        background-color: #040404;
         display: flex;
         padding-bottom: 100px;
     }
 
     .bloco6 .bloco6a {
         margin-top: 30px;
-        background-color: black;
+        background-color: #040404;
         width: 55%;
         text-align: center;
         justify-content: center;
@@ -628,7 +627,7 @@
 
     .bloco6 .bloco6b {
         width: 45%;
-        background-color: black;
+        background-color: #040404;
         text-align: left;
         margin-left: 20px;
     }
