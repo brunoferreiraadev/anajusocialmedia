@@ -413,8 +413,6 @@
         width: 100%;
         display: flex;
         object-fit: cover;
-        /* max-width: 800px;
-        max-height: 600px; */
     }
 
     .bloco5 .blocod1 {
@@ -480,6 +478,24 @@
         align-items: center;
         transition: 0.2s;
         word-wrap: break-word;
+    }
+
+    .test h2 {
+        color: white;
+        background-color: #029E42;
+        padding: 10px 0px;
+        margin: 15px 0px;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        text-align: left;
+        font-size: 12px;
+        border-radius: 5px 5px 0px 0px;
+        border: 1px solid #029E42;
+        display: flex;
+        align-items: center;
+        transition: 0.2s;
+        word-wrap: break-word;
+        letter-spacing: 2px;
     }
 
     .bloco5 .blocod2 h2:hover {
@@ -785,175 +801,12 @@
         width: 80%;
         object-fit: cover;
         max-width: 846px;
-        width: 80%;
+        width: 70%;
         max-height: 762px;
         height: 100%;
     }
 
     /* bloco1 */
-
-    /* bloco 1 continuação */
-
-    .blocoa {
-        width: 100%;
-        background-color: #f2f2f2;
-        flex-direction: column;
-        display: flex;
-        justify-content: top;
-        align-items: center;
-    }
-
-    .blocoa h1 {
-        font-family: 'Cinzel', serif;
-        font-weight: normal;
-        font-size: 35px;
-        line-height: 35px;
-        color: #490315;
-        margin-top: 90px;
-        text-align: center;
-        margin-bottom: 0px;
-        margin-bottom: 80px;
-        padding: 0px 20px 0px 20px;
-        border-bottom: 1px solid #490315;
-    }
-
-    .blocoa h2 {
-        background-color: #490315;
-        font-family: 'Exo', sans-serif;
-        font-weight: bold;
-        font-size: 25px;
-        color: #f2f2f2;
-        text-align: center;
-        letter-spacing: 0px;
-        width: 80%;
-        padding: 20px 0px;
-    }
-
-    .blocoa a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 15px 50px;
-        margin-top: 80px;
-        margin-bottom: 100px;
-        text-decoration: none;
-        cursor: pointer;
-        text-decoration: none;
-        background-color: #490315;
-        color: #f2f2f2;
-        font-weight: bold;
-        font-size: 18px;
-        font-family: 'Cinzel', serif;
-        transition: 0.2s;
-        border: 2px solid #490315;
-    }
-
-    .blocoa .fa-rocket {
-        font-size: 15px;
-        margin-right: 20px;
-    }
-
-    .blocoa a:hover {
-        background-color: #f2f2f2;
-        color: #490315;
-        border: 2px solid #490315;
-        transition: 0.2s;
-    }
-
-    /* bloco 1 continuação */
-
-    /* bloco div titulo */
-    .titulo {
-        width: 100%;
-        background-color: #181719;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        padding: 100px 0px 70px 0px;
-    }
-
-    .titulo h1 {
-        color: #f2f2f2;
-        font-family: 'Cinzel', serif;
-        font-weight: normal;
-        font-size: 35px;
-        margin: 0px 20px;
-
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        line-height: 35px;
-    }
-
-    /* bloco div titulo */
-
-    /* bloco 4 */
-    .bloco4 {
-        width: 100%;
-        background-color: #0C0807;
-        display: flex;
-        height: 100%;
-    }
-
-    .paragrafo1 {
-        width: 100%;
-    }
-
-    .paragrafo1 {
-        justify-content: top;
-        align-items: top;
-        background-color: #181719;
-    }
-
-    .paragrafo1 p {
-        width: 90%;
-        color: #f2f2f2;
-        margin: 0 auto;
-        font-family: 'Exo', sans-serif;
-        font-weight: bold;
-        font-size: 20px;
-
-        line-height: 40px;
-        text-align: left;
-        margin-bottom: 100px;
-    }
-
-    .botao {
-        margin-bottom: 117px;
-    }
-
-    .bloco4 a {
-        align-items: center;
-        justify-content: center;
-        padding: 15px 50px;
-        width: 50%;
-        text-decoration: none;
-        cursor: pointer;
-        text-decoration: none;
-        background-color: white;
-        color: black;
-        font-weight: bold;
-        font-size: 18px;
-        font-family: 'Cinzel', serif;
-        transition: 0.2s;
-        border: 2px solid white;
-    }
-
-    .bloco4 .fa-lightbulb {
-        font-size: 15px;
-        margin-right: 20px;
-    }
-
-    .bloco4 a:hover {
-        box-shadow: none;
-        border: 2px solid white;
-        color: white;
-        background-color: #181719;
-        transition: 0.2s;
-    }
-
-    /* bloco 4 */
 
     /* bloco 5 */
 
@@ -996,7 +849,6 @@
         justify-content: center;
         align-items: center;
         text-align: left;
-
         color: black;
         padding: 0px 50px;
         margin-top: -15px;
@@ -1035,11 +887,29 @@
         font-family: 'Cinzel', serif;
         font-weight: bold;
         text-align: left;
-
         font-size: 13px;
         border-radius: 5px 5px 0px 0px;
         border: 1px solid #490315;
         display: flex;
+        align-items: center;
+        transition: 0.2s;
+        word-wrap: break-word;
+    }
+
+    .test h2 {
+        color: white;
+        background-color: #029E42;
+        min-width: 300px;
+        padding: 10px 0px;
+        margin: 15px 10px;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        text-align: left;
+        font-size: 13px;
+        border-radius: 5px 5px 0px 0px;
+        border: 1px solid #029E42;
+        display: flex;
+        letter-spacing: 2px;
         align-items: center;
         transition: 0.2s;
         word-wrap: break-word;

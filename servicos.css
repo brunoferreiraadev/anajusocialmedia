@@ -10,6 +10,10 @@
         display: none;
     }
 
+    .bloco5 {
+        display: none;
+    }
+
     /* menu */
     .arrow-button {
         border-bottom: 1px solid #f2f2f2;
@@ -85,13 +89,13 @@
 
     /* menu */
 
-    /* bloco 5 */
-    .bloco5 {
+    /* bloco5-cel */
+    .bloco5-cel {
         background-color: #040404;
         border-bottom: 10px solid #f2f2f2;
     }
 
-    .bloco5 .bloco5a {
+    .bloco5-cel .bloco5a-cel {
         padding-top: 50px;
         background-color: #040404;
         width: 100%;
@@ -100,11 +104,11 @@
         align-items: center;
     }
 
-    #bloco5 {
+    #bloco5-cel {
         width: 100%;
     }
 
-    .bloco5 .bloco5a img {
+    .bloco5-cel .bloco5a-cel img {
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -114,35 +118,33 @@
         object-fit: cover;
     }
 
-    .bloco5 .bloco5b {
+    .bloco5-cel .bloco5b-cel {
         background-color: #040404;
         text-align: left;
         padding: 0px 20px;
     }
 
-    .bloco5 .bloco5b h1 {
+    .bloco5-cel .bloco5b-cel h1 {
         font-family: 'Cinzel', serif;
         font-size: 18px;
         line-height: 23px;
         text-align: center;
-
         font-weight: normal;
         color: #f2f2f2;
         margin: 30px 0px;
         border-bottom: 1px solid #f2f2f2;
     }
 
-    .bloco5 .bloco5b p {
+    .bloco5-cel .bloco5b-cel p {
         font-family: 'Exo', sans-serif;
         font-weight: bold;
         font-size: 15px;
         color: #f2f2f2;
         margin-bottom: 30px;
         text-align: center;
-
     }
 
-    .bloco5 .bloco5b a {
+    .bloco5-cel .bloco5b-cel a {
         text-decoration: none;
         font-family: 'Cinzel', serif;
         font-weight: bold;
@@ -161,20 +163,20 @@
         transition: 0.2s;
     }
 
-    .bloco5b a:hover {
+    .bloco5b-cel a:hover {
         background-color: #f2f2f2;
         transition: 0.2s;
         color: #daa520;
     }
 
-    .bloco5 .fa-plus {
+    .bloco5-cel .fa-plus {
         margin-right: 10px;
         margin-left: 10px;
         font-size: 13px;
         font-weight: normal;
     }
 
-    .bloco5 .tags {
+    .bloco5-cel .tags {
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -182,11 +184,10 @@
         padding: 20px 0px 50px 0px;
     }
 
-    .bloco5 .tags a {
+    .bloco5-cel .tags a {
         text-decoration: none;
         font-family: 'Cinzel', serif;
         font-weight: bold;
-
         font-size: 13px;
         color: #f2f2f2;
         background-color: #029E42;
@@ -200,7 +201,7 @@
         transition: 0.2s;
     }
 
-    .bloco5 .fa-whatsapp {
+    .bloco5-cel .fa-whatsapp {
         margin-right: 10px;
         font-size: 15px;
         font-weight: normal;
@@ -208,13 +209,13 @@
         display: flex;
     }
 
-    .bloco5 .tags a:hover {
+    .bloco5-cel .tags a:hover {
         background-color: #f2f2f2;
         transition: 0.2s;
         color: #029E42;
     }
 
-    .bloco5 .textoOculto {
+    .bloco5-cel .textoOculto {
         color: black;
         background-color: #f2f2f2;
         padding: 20px;
@@ -232,7 +233,7 @@
         border-bottom: 2px solid #daa520;
     }
 
-    /* bloco 5 */
+    /* bloco5-cel */
 
     /* bloco 6 cel*/
 
@@ -275,7 +276,6 @@
         font-size: 18px;
         line-height: 23px;
         text-align: center;
-
         font-weight: normal;
         color: #f2f2f2;
         margin: 30px 0px;
@@ -296,7 +296,6 @@
         text-decoration: none;
         font-family: 'Cinzel', serif;
         font-weight: bold;
-
         font-size: 13px;
         color: white;
         background-color: #daa520;
@@ -337,7 +336,6 @@
         text-decoration: none;
         font-family: 'Cinzel', serif;
         font-weight: bold;
-
         font-size: 13px;
         color: #f2f2f2;
         background-color: #029E42;
@@ -391,9 +389,10 @@
         background-color: #ccc;
     }
 
-    .bloco6-c {
+    main {
         display: none;
     }
+
 
     /* topo */
 
@@ -431,7 +430,6 @@
         align-items: center;
         text-align: center;
         display: flex;
-
     }
 
     .div-filha a:hover {
@@ -501,7 +499,6 @@
         font-size: 15px;
         color: #f2f2f2;
         margin: 0px 0px 30px 0px;
-
     }
 
     .bloco5 .bloco5b a {
@@ -694,7 +691,6 @@
         text-decoration: none;
         font-family: 'Cinzel', serif;
         font-weight: bold;
-
         font-size: 15px;
         color: #f2f2f2;
         background-color: #029E42;
